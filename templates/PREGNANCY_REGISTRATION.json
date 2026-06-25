@@ -1,0 +1,87 @@
+{
+  "anamnesisInfo": {
+    "bloodTransfusionInfo": "string",
+    "contraceptionEndDate": "2026-06-23T07:07:41.000+05:00",
+    "contraceptionStartDate": "2026-06-23T07:07:41.000+05:00",
+    "contraceptionType": "string",
+    "cycleDuration": 0,
+    "dischargeId": "string",
+    "dispensarySign": false,
+    "durationMenstruation": 0,
+    "fathersInfo": {
+      "fatherInheritance": "string",
+      "fathersHealth": "string",
+      "xrayDiagnosis": "string",
+      "xrayExamination": "2026-06-23T07:07:41.000+05:00"
+    },
+    "inheritance": [
+      {
+        "icd10Id": "string",
+        "relationDegreeId": "string"
+      }
+    ],
+    "menarche": 0,
+    "pastSurgery": "string",
+    "previousIllnesses": "string",
+    "riskFactorInfoDtos": [
+      {
+        "riskFactor": "string",
+        "riskFactorDate": "2026-06-23T07:07:41.000+05:00"
+      }
+    ],
+    "sexLifeComment": "string",
+    "sexLifeFrom": 0
+  },
+  "eventId": "EVENT_PREGNANCY_REGISTRATION_TEMPLATE",
+  "eventType": "PREGNANCY_REGISTRATION",
+  "misId": 0,
+  "obstetricGynecologicalHistoryDto": {
+    "abortionsCount": 0,
+    "birthsCount": 0,
+    "childrenCount": 0,
+    "childrenDeathFirstWeekCount": 0,
+    "criminalReasonAbortionsCount": 0,
+    "directionType": "string",
+    "ectopicPregnanciesCount": 0,
+    "ekoInfo": {
+      "ekoDate": "2026-06-23T07:07:41.000+05:00",
+      "ekoGestationPeriod": 0,
+      "ekoOrganizationBin": "string",
+      "ekoOrganizationId": 0
+    },
+    "firstFetalMovementDate": "2026-06-23T07:07:41.000+05:00",
+    "gestationPeriod": 0,
+    "lastMenstruationDate": "2026-06-23T07:07:41.000+05:00",
+    "lastPregnancyCompletionDate": "2026-06-23T07:07:41.000+05:00",
+    "medicalAbortion12weeks": 0,
+    "medicalReasonAbortionsCount": 0,
+    "miniAbortionsCount": 0,
+    "missedAbortionsCount": 0,
+    "preconceptionСare": false,
+    "pregnanciesCount": 0,
+    "pregnancyType": "string",
+    "prematurePregnanciesCount": 0,
+    "socialReasonAbortionsCount": 0,
+    "spontaneousAbortionsCount": 0,
+    "stillbirthsCount": 0,
+    "ultrasonographyDate": "2026-06-23T07:07:41.000+05:00",
+    "ultrasonographyPregnancyDuration": 0
+  },
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "receivedFromAnotherMO": false,
+  "receptionId": "string",
+  "registrationDate": "2026-06-23T07:07:41.000+05:00",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

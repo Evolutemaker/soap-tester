@@ -1,0 +1,127 @@
+{
+  "anesthesiaCard": {
+    "akpProtocol": "string",
+    "alvInfo": [
+      {
+        "alvInfoDateTime": "2026-06-23T07:07:41.000+05:00",
+        "capnography": 0,
+        "fiO2": 0,
+        "minuteRespiratoryVolume": 0,
+        "peep": 0,
+        "pip": 0,
+        "pressureInspiration": 0,
+        "respiratoryVolume": 0
+      }
+    ],
+    "alvSign": false,
+    "alvType": "string",
+    "anesthesiaInfo": {
+      "anesthesiaComplications": "string",
+      "anesthesiaDuration": 0,
+      "anesthesiaFeatures": "string",
+      "anesthesiaType": "string",
+      "surgeryComplications": "string"
+    },
+    "anesthesiaManual": {
+      "anesthesiaManualType": "string",
+      "medicationAssignmentsId": "string"
+    },
+    "anesthesiaManualSign": "string",
+    "informedConsent": false,
+    "introductoryAnesthesiaInfo": [
+      {
+        "introductoryAnesthesia": false,
+        "medicationAssignmentsId": "string"
+      }
+    ],
+    "kpvProtocol": "string",
+    "layingPatient": "string",
+    "medicalSupportInfo": [
+      {
+        "medicalSupportSign": false,
+        "medicationAssignmentsId": "string"
+      }
+    ],
+    "myorelaxation": {
+      "medicationAssignmentsId": "string",
+      "myorelaxationSign": false
+    },
+    "patientObservation": [
+      {
+        "heartRate": 0,
+        "observationTime": "2026-06-23T07:07:41.000+05:00",
+        "pressureDiastolic": 0,
+        "pressureSystolic": 0,
+        "pulse": 0,
+        "saturation": 0,
+        "temperature": 0
+      }
+    ],
+    "potentiation": [
+      {
+        "medicationAssignmentsId": "string"
+      }
+    ],
+    "premedication": [
+      {
+        "medicationAssignmentsId": "string",
+        "premedicationOperTable": "string"
+      }
+    ],
+    "surgeryDuration": 0,
+    "trachealIntubationInfo": {
+      "trachealIntubComplications": "string",
+      "trachealIntubation": false,
+      "trachealIntubationTime": "2026-06-23T07:07:41.000+05:00",
+      "trachealIntubationType": "string"
+    }
+  },
+  "anesthesiaDate": "2026-06-23T07:07:41.000+05:00",
+  "eventId": "EVENT_ANESTHESIA_TEMPLATE",
+  "eventType": "ANESTHESIA",
+  "hospitalizationId": "string",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "postoperativeFollowUp": {
+    "diuresisHourly": [
+      {
+        "diuresis": 0,
+        "observationTime": "2026-06-23T07:07:41.000+05:00"
+      }
+    ],
+    "extubation": "string",
+    "extubationTime": "2026-06-23T07:07:41.000+05:00",
+    "patientObservation": {
+      "heartRate": 0,
+      "observationTime": "2026-06-23T07:07:41.000+05:00",
+      "pressureDiastolic": 0,
+      "pressureSystolic": 0,
+      "pulse": 0,
+      "saturation": 0,
+      "temperature": 0
+    },
+    "respiratorySupport": {
+      "breathVolume": 0,
+      "minuteVolumeBreath": 0
+    },
+    "respiratorySupportSign": false,
+    "transferDateTime": "2026-06-23T07:07:41.000+05:00",
+    "transferredSpecializedDep": false,
+    "transfusedInfusionSolutions": 0
+  },
+  "preoperativeSummaryId": "string",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

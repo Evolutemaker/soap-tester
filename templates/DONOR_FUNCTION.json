@@ -1,0 +1,103 @@
+{
+  "analysisResults": {
+    "ahbcore": "string",
+    "ahbs": "string",
+    "ahbsResult": "string",
+    "alat": "string",
+    "antibodies": "string",
+    "antigensA2": "string",
+    "bioDateTime": "2026-06-23T07:07:41.000+05:00",
+    "bloodGroupImmun": "string",
+    "bloodGroupLpod": "string",
+    "dateImmunDateTime": "2026-06-23T07:07:41.000+05:00",
+    "datePcrDateTime": "2026-06-23T07:07:41.000+05:00",
+    "fenotip": "string",
+    "hbsagFinal": "string",
+    "hbsagFirst": "string",
+    "hbsagPcr": "string",
+    "hcvFinal": "string",
+    "hcvFirst": "string",
+    "hcvPcr": "string",
+    "hemoglobin": "string",
+    "hivFinal": "string",
+    "hivFirst": "string",
+    "hivPcr": "string",
+    "ifaDate": "2026-06-23T07:07:41.000+05:00",
+    "kell": "string",
+    "kellLpod": "string",
+    "multiplexPcr": "string",
+    "rezusImmun": "string",
+    "rezusLpod": "string",
+    "rezusRecipient": "string",
+    "syphilisFinal": "string",
+    "syphilisFirst": "string"
+  },
+  "appeal": {
+    "dateRegistrationDateTime": "2026-06-23T07:07:41.000+05:00",
+    "donorFunctionType": "string",
+    "donorId": 0,
+    "donorIin": "string",
+    "donorType": "string",
+    "visitsId": 0
+  },
+  "eventId": "EVENT_DONOR_FUNCTION_TEMPLATE",
+  "eventType": "DONOR_FUNCTION",
+  "medicalExamination": {
+    "abdominalOrgans": "string",
+    "auscultationLungs": "string",
+    "bloodPressure": {
+      "pressureLeftDiastolic": 0,
+      "pressureLeftSystolic": 0,
+      "pressureRightDiastolic": 0,
+      "pressureRightSystolic": 0
+    },
+    "bodyTemperature": 0,
+    "certificateDate": "2026-06-23",
+    "certificateNumber": 0,
+    "conclusion": "string",
+    "dateExp": "2026-06-23T07:07:41.000+05:00",
+    "dispensaryRegistration": "string",
+    "doctorInfo": {
+      "doctorFIO": "string",
+      "doctorSurId": 0
+    },
+    "donationTypeId": "string",
+    "electrocardiogram": "string",
+    "electrocardiogramDateTime": "2026-06-23T07:07:41.000+05:00",
+    "healthState": "string",
+    "heartAuscult": "string",
+    "height": 0,
+    "heredity": "string",
+    "infectionDiseases": "string",
+    "lymphNodes": "string",
+    "musculoskeletalSystem": "string",
+    "otherOrgans": "string",
+    "parasiticDiseases": "string",
+    "pastIllnesses": "string",
+    "pulseCharacter": "string",
+    "rejectionReason": "string",
+    "rejectionType": 0,
+    "sclera": "string",
+    "skinMembranes": "string",
+    "statusDonation": "string",
+    "transblood": "string",
+    "vaccinationsTheirDuration": "string",
+    "volumeDonationId": "string",
+    "weight": 0
+  },
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

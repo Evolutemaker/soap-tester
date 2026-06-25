@@ -1,0 +1,28 @@
+{
+  "certificateNumber": 0,
+  "deliveryHistoryId": "string",
+  "doctorId": 0,
+  "eventId": "EVENT_BIRTH_REGISTRATION_TEMPLATE",
+  "eventType": "BIRTH_REGISTRATION",
+  "issueDateTime": "2026-06-23T07:07:41.000+05:00",
+  "misId": 0,
+  "motherRpnId": "string",
+  "newbornFirstName": "string",
+  "newbornHistoryId": "string",
+  "newbornLastName": "string",
+  "newbornSecondName": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

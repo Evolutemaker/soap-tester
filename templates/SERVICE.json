@@ -1,0 +1,95 @@
+{
+  "additionalDiagnosisList": [
+    {
+      "diagChar": "string",
+      "diagKind": "string",
+      "diagType": "string",
+      "mkb10": "string",
+      "sickTraumaTypePublicCode": "string"
+    }
+  ],
+  "careKindId": "string",
+  "cost": 0,
+  "customerBin": "string",
+  "customerDepartment": 0,
+  "customerDepartmentText": "string",
+  "customerEmployeeId": 0,
+  "customerEmployeeIin": "string",
+  "customerIpIin": "string",
+  "customerOrganizationBin": "string",
+  "customerOrganizationId": "string",
+  "deleteDate": "2026-06-23T07:07:41.000+05:00",
+  "deleteReason": "string",
+  "diagnosisList": [
+    {
+      "diagChar": "string",
+      "diagKind": "string",
+      "diagType": "string",
+      "mkb10": "string",
+      "sickTraumaTypePublicCode": "string"
+    }
+  ],
+  "eventId": "EVENT_SERVICE_TEMPLATE",
+  "eventType": "SERVICE",
+  "financeSourceId": 0,
+  "medicalRecordDto": {
+    "fileId": "string",
+    "mimeType": "string"
+  },
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "parentId": "string",
+  "patientAdditionalInformation": {
+    "patientBirthDate": "2026-06-23T07:07:41.000+05:00",
+    "patientFirstName": "FirstName",
+    "patientLastName": "LastName",
+    "patientMiddleName": "MiddleName",
+    "patientSexId": 123,
+    "patientStatus": 0,
+    "rpnIdMother": "RPN12345"
+  },
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "paymentType": 0,
+  "performerDepartment": "string",
+  "performerDepartmentText": "string",
+  "performerEmployeeId": 0,
+  "performerEmployeeIin": "string",
+  "performerOrganizationBin": "string",
+  "performerOrganizationId": 0,
+  "place": "string",
+  "provisionDate": "2026-06-23T07:07:41.000+05:00",
+  "referralId": "string",
+  "screeningInfo": [
+    {
+      "checkList": [
+        {
+          "checkId": "1",
+          "checkValue": "value"
+        }
+      ],
+      "screeningEPSId": "string",
+      "screeningId": "string",
+      "screeningType": "string"
+    }
+  ],
+  "serviceCDSKind": 0,
+  "serviceCode": "string",
+  "serviceCount": 0,
+  "serviceEPSId": "string",
+  "serviceKind2": false,
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "treatmentReason": "string",
+  "visitKindId": "string",
+  "visitType": "string"
+}

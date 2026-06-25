@@ -1,0 +1,61 @@
+{
+  "abroad": false,
+  "agreement": {
+    "fileId": "string",
+    "fileName": "string",
+    "replyDate": "2026-06-23T07:07:41.000+05:00",
+    "replyText": "string",
+    "source": "string",
+    "status": false
+  },
+  "batchNumber": "string",
+  "consultation": "string",
+  "contingentCode": "string",
+  "countryCode": "string",
+  "description": "string",
+  "diseaseCode": "string",
+  "doctorId": 0,
+  "doctorIin": "string",
+  "dosageTypeId": "string",
+  "eventId": "EVENT_VACCINATION_TEMPLATE",
+  "eventType": "VACCINATION",
+  "immunization": "string",
+  "immunizationEpidReason": "string",
+  "injectionDate": "2026-06-23T07:07:41.000+05:00",
+  "medOrgAbroad": "string",
+  "medicineResource": {
+    "medicineResourceCode": "string",
+    "medicineResourceName": "string"
+  },
+  "medicineResourceCodeAbroad": "string",
+  "misId": 0,
+  "nurseId": 0,
+  "nurseIin": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "procedureIndex": "string",
+  "reasonCode": "string",
+  "reasonDenyCode": "string",
+  "serialNumber": "string",
+  "serialNumberAbroad": "string",
+  "serviceId": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "startDate": "2026-06-23T07:07:41.000+05:00",
+  "stateId": 0,
+  "stateKato": "string",
+  "vaccinationPlace": "string",
+  "vaccinationPlanCode": "string",
+  "vaccinationStatus": "string",
+  "vaccinationTypeCode": "string"
+}

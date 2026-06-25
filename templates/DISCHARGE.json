@@ -1,0 +1,71 @@
+{
+  "abilityWork": "string",
+  "autopsyReferralSign": false,
+  "bedDays": 0,
+  "dayHospitalCardTypeId": "string",
+  "deathRegistrationId": "string",
+  "diagList": [
+    {
+      "diagChar": "string",
+      "diagKind": "string",
+      "diagType": "string",
+      "mkb10": "string",
+      "sickTraumaTypePublicCode": "string"
+    }
+  ],
+  "disabilityId": "string",
+  "disabilitySign": false,
+  "dischargeDateTime": "2026-06-23T07:07:41.000+05:00",
+  "dischargeNewborn": [
+    {
+      "dischargedWhatDayBorn": 0,
+      "fluorographyFather": false,
+      "fluorographyMother": false,
+      "newbornCondition": "string",
+      "newbornDischargeWeight": 0,
+      "newbornHistoryId": "string",
+      "newbornOutcome": "string"
+    }
+  ],
+  "dischargeReceived": false,
+  "dischargeRecommendations": "string",
+  "dischargeStatus": "string",
+  "epicrisis": [
+    {
+      "epicrisisData": "string",
+      "epicrisisType": "string"
+    }
+  ],
+  "ersbId": "string",
+  "eventId": "EVENT_DISCHARGE_TEMPLATE",
+  "eventType": "DISCHARGE",
+  "expertOpinionSign": false,
+  "hospitalizationId": "string",
+  "inPatientPayType": "string",
+  "misId": 0,
+  "onkoRecommendations": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "outcome": "string",
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "rehabilitationCaseId": "string",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "surgeryList": [
+    {
+      "surgeryId": "string",
+      "surgeryKind": "string"
+    }
+  ],
+  "treatmentOutcome": "string"
+}

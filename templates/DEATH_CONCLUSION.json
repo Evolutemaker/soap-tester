@@ -1,0 +1,68 @@
+{
+  "causeOfDeath": [
+    {
+      "deathDiseasesMKB10": "string",
+      "diseasesBegDate": "2026-06-23",
+      "diseasesEndDate": "2026-06-23",
+      "medicalCauseDeath": "string"
+    }
+  ],
+  "causeOfDeathEstablished": "string",
+  "deathCertificateNumber": "DCN-123456",
+  "deathCertificateType": "string",
+  "deathDateTime": "2026-06-23T07:07:41.000+05:00",
+  "deathKind": "string",
+  "deathRegistrationId": "string",
+  "eventId": "EVENT_DEATH_CONCLUSION_TEMPLATE",
+  "eventType": "DEATH_CONCLUSION",
+  "hdeathTypeCache": "string",
+  "infantDeath": {
+    "newbornHistoryId": "string",
+    "numberDaysLived": 0,
+    "theDeathOfChildOccurred": "string"
+  },
+  "injuryDate": "2026-06-23T07:07:41.000+05:00",
+  "injuryPlace": "string",
+  "issuedCertificate": {
+    "issuedEmployeeId": 0,
+    "issuedMOId": 0,
+    "issuedPostId": 0
+  },
+  "medicalDeathCertificateDateTime": "2026-06-23T07:07:41.000+05:00",
+  "misId": 0,
+  "motherDeath": {
+    "deliveryHistoryId": "string",
+    "typeMaternalMortality": "string"
+  },
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "perinatalDeath": {
+    "childBornDateTime": "2026-06-23T07:07:41.000+05:00",
+    "deliveryHistoryId": "string",
+    "fullNameOfDeceased": "string",
+    "mothersRpnID": "string",
+    "newbornHistoryId": "string",
+    "periodOfChildsDeath": "string",
+    "signOfLiveBirth": "string",
+    "theChildBorn": "string",
+    "theDeathOfChildOccurred": "string",
+    "typeOfDeathInRelationToChildbirth": "string"
+  },
+  "personIin": "string",
+  "reasonForDeclaringDeath": "string",
+  "riskFactorsDuringPregnancy": "string",
+  "sickTraumaTypePublicCode": "string",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

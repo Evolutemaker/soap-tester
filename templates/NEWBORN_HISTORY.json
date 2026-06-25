@@ -1,0 +1,88 @@
+{
+  "appointments": [
+    {
+      "assignmentIsloId": "string",
+      "medicationAssignmentsId": "string"
+    }
+  ],
+  "birthDateTime": "2026-06-23T07:07:41.000+05:00",
+  "birthInjuriesInfo": [
+    {
+      "birthInjuries": "string"
+    }
+  ],
+  "breastFeedingInformation": false,
+  "deliveryHistoryId": "string",
+  "developmentalDefectsInfo": [
+    {
+      "developmentalDefects": "string"
+    }
+  ],
+  "doctorId": 0,
+  "eventId": "EVENT_NEWBORN_HISTORY_TEMPLATE",
+  "eventType": "NEWBORN_HISTORY",
+  "hospitalizationId": "string",
+  "inpatientMedicalExaminationId": "string",
+  "misId": 0,
+  "newbornConditionApgarScore": {
+    "apgarScore1Min": 0,
+    "apgarScore5Min": 0
+  },
+  "newbornInfo": {
+    "benefitsDuringChildbirth": "string",
+    "birthHeight": 0,
+    "birthWeight": 0,
+    "breath": false,
+    "chestCircumference": 0,
+    "childBirth": "string",
+    "childGestationalAge": 0,
+    "childGestationalAgeOf": 0,
+    "childNumber": 0,
+    "gender": "string",
+    "headCircumference": 0,
+    "heartbeat": false,
+    "liveBirthCriteria": "string",
+    "pulsationUmbilicalCord": false,
+    "signOfLiveBirth": "string",
+    "typeOfTerm": "string",
+    "voluntaryContractionOfMuscles": false
+  },
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "placementId": "string",
+  "refusalChild": false,
+  "screening": [
+    {
+      "screeningComment": "string",
+      "screeningDateTime": "2026-06-23T07:07:41.000+05:00",
+      "screeningId": "string",
+      "screeningRefusal": false,
+      "screeningResult": "string"
+    }
+  ],
+  "serviceList": {
+    "justification": "string",
+    "recipientBloodGroup": "string",
+    "recipientRhFactor": "string",
+    "serviceCode": "string"
+  },
+  "signatures": [
+    {
+      "sign": "ABC123XYZ456...",
+      "signedData": "ABC123XYZ456...",
+      "signerInformation": {
+        "bin": "123456789012",
+        "iin": "123456789012"
+      }
+    }
+  ],
+  "surrogateMotherSign": false,
+  "vaccination": {
+    "vaccinationId": "string"
+  }
+}

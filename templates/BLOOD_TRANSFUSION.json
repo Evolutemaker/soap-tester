@@ -1,0 +1,72 @@
+{
+  "eventId": "EVENT_BLOOD_TRANSFUSION_TEMPLATE",
+  "eventType": "BLOOD_TRANSFUSION",
+  "misId": 171,
+  "organizationId": 8000000000000003,
+  "organizationBin": "990740001522",
+  "patientInformation": {
+    "iin": "{{TEST_IIN}}",
+    "rpnId": null
+  },
+  "patientCode": null,
+  "hospitalizationId": "13eea93e-fb24-4bce-b8bc-8d381809ee54",
+  "signatures": null,
+  "patientConsent": true,
+  "mac": null,
+  "preTransfusionEpicrisis": {
+    "indicationsUseInfo": [
+      { "indicationsUseType": "100", "indicationsUse": "100" },
+      { "indicationsUseType": "100", "indicationsUse": "200" },
+      { "indicationsUseType": "100", "indicationsUse": "300" },
+      { "indicationsUseType": "200", "indicationsUse": "800" },
+      { "indicationsUseType": "200", "indicationsUse": "900" },
+      { "indicationsUseType": "200", "indicationsUse": "1000" },
+      { "indicationsUseType": "300", "indicationsUse": "1500" },
+      { "indicationsUseType": "300", "indicationsUse": "1200" },
+      { "indicationsUseType": "300", "indicationsUse": "1400" },
+      { "indicationsUseType": "300", "indicationsUse": "1100" }
+    ],
+    "transfusionTactics": "-1",
+    "performedServices": [
+      { "serviceCode": "-1" }
+    ]
+  },
+  "transfusionMedium": [
+    {
+      "transfusionMediumCode": "200",
+      "bloodComponents": "2400",
+      "transfusionBloodGroup": "200",
+      "transfusionRhFactor": "100",
+      "seriesNumber": 666,
+      "bloodCenterId": 0,
+      "productionDate": "2026-05-25",
+      "expireDate": "2026-07-05"
+    }
+  ],
+  "transfusionDateAndTime": "2026-06-19T10:37:00.000+05:00",
+  "transfusionFrequency": "-1",
+  "transfusionRate": "-1",
+  "testIndividualCompatibility": {
+    "employeeId": 9218,
+    "testMethod": "-1",
+    "testInterpretation": "-1"
+  },
+  "transfusionDoctorId": 9218,
+  "recipientBloodGroup": "200",
+  "recipientRhFactor": "100",
+  "amount": 9,
+  "erythrocyteContaining": 9,
+  "cryoprecipitateContaining": null,
+  "thrombocytesContaining": null,
+  "granulocytesContaining": null,
+  "transfusionMethod": "100",
+  "transfusionStatus": "-1",
+  "adverseEffectsAdditional": "-1",
+  "adverseEffectsFromTransfusion": "-1",
+  "measuresTreatment": null,
+  "adverseReactionsSign": false,
+  "adverseReactionsType": null,
+  "adverseReactions": null,
+  "complications": null,
+  "delayedReactions": null
+}

@@ -1,0 +1,78 @@
+{
+  "contractNumber": "string",
+  "contractType": "string",
+  "contractTypeCode": 0,
+  "doctorSurId": 0,
+  "drugType": "string",
+  "druggistId": "string",
+  "eventId": "EVENT_MEDICATION_PRESCRIPTION_TEMPLATE",
+  "eventType": "MEDICATION_PRESCRIPTION",
+  "idRecipe": "string",
+  "medicalDevices": [
+    {
+      "allowPackageOpening": false,
+      "availabilityGroupId": "string",
+      "dispensingDate": "2026-06-23T07:07:41.000+05:00",
+      "expiryDate": "2026-06-23T07:07:41.000+05:00",
+      "markCode": "string",
+      "mdevQuantity": false,
+      "priceDetailId": "string",
+      "recipeCost": 0,
+      "recipeStatus": "string",
+      "series": "string",
+      "tradeNameDrugUid": "string",
+      "ukicalId": "string",
+      "unitPrice": 0,
+      "unitsAttribute": false
+    }
+  ],
+  "medicalkit": {
+    "dispensingDate": "2026-06-23T07:07:41.000+05:00",
+    "expirationDate": "2026-06-23T07:07:41.000+05:00",
+    "markCode": "string",
+    "medicalProductKitQuantity": 0,
+    "recipeCost": 0,
+    "recipeStatus": "string",
+    "series": "string",
+    "singleSupply": false,
+    "tradeName": "string",
+    "unitPrice": 0,
+    "unitsAttribute": false
+  },
+  "medication": {
+    "allowPackageOpening": false,
+    "availabilityGroupId": "string",
+    "dispensingDate": "2026-06-23T07:07:41.000+05:00",
+    "expirationDate": "2026-06-23T07:07:41.000+05:00",
+    "markCode": "string",
+    "medicationQuantity": "string",
+    "positionId75": "string",
+    "priceDetailId": "string",
+    "recipeCost": 0,
+    "recipeStatus": "string",
+    "series": "string",
+    "singleSupply": false,
+    "tradeNameDrugUid": "string",
+    "unitPrice": 0,
+    "unitsAttribute": false
+  },
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "recipeDate": "2026-06-23T07:07:41.000+05:00",
+  "recipeNumber": "string",
+  "recipeType": "PAID",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "specId": "string"
+}

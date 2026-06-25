@@ -1,0 +1,33 @@
+{
+  "birthAbortionPlace": "string",
+  "childbirthInfo": "string",
+  "contraceptionInfoId": "string",
+  "deathID": "string",
+  "deregistrationDate": "2026-06-23T07:07:41.000+05:00",
+  "deregistrationReasonId": "string",
+  "dischargeId": "string",
+  "eventId": "EVENT_PREGNANCY_DEREGISTRATION_TEMPLATE",
+  "eventType": "PREGNANCY_DEREGISTRATION",
+  "exodusDate": "2026-06-23T07:07:41.000+05:00",
+  "gestationalAgeAtRemoval": 0,
+  "misId": 0,
+  "newbornHistoryId": "string",
+  "oldDeregistrationOrganization": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "pregnancyOutcomeId": "string",
+  "receptionID": "string",
+  "registrationId": "string",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

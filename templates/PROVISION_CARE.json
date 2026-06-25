@@ -1,0 +1,82 @@
+{
+  "activeAmbulance": false,
+  "activeDistrictDoctor": false,
+  "arrivalDateTime": "2026-06-23T07:07:41.000+05:00",
+  "callingAmbulanceId": "string",
+  "callingIssue": "string",
+  "callingResult": "string",
+  "conditionChange": "string",
+  "delayedArrival": false,
+  "delayedArrivalReason": "string",
+  "doctorId": 0,
+  "eventId": "EVENT_PROVISION_CARE_TEMPLATE",
+  "eventType": "PROVISION_CARE",
+  "feldsherId": 0,
+  "healthCare": {
+    "additionalDiagnosisAmbulance": "string",
+    "cardioPulmoResuscitationId": "string",
+    "diagnosisAmbulance": "string",
+    "ekg": [
+      {
+        "ekgKind": "string",
+        "ekgResult": "string"
+      }
+    ],
+    "generalExamDoctorId": "string",
+    "glucoseLevel": 0,
+    "instrumlDiagnosticMethods": "string",
+    "isBLS": false,
+    "objectiveIndicators": [
+      {
+        "cvp": 0,
+        "heartRate": 0,
+        "measurementPeriod": "string",
+        "nbm": 0,
+        "pressureInfo": {
+          "pressureLeftDiastolic": 0,
+          "pressureLeftSystolic": 0,
+          "pressureRightDiastolic": 0,
+          "pressureRightSystolic": 0
+        },
+        "pulse": 0,
+        "saturation": 0,
+        "temperature": 0
+      }
+    ],
+    "pcr": false,
+    "pcrResult": false,
+    "proteinLevels": 0,
+    "reanimationNewbornId": "string",
+    "sedation": "string",
+    "sedationTime": "2026-06-23T07:07:41.000+05:00",
+    "therapeuticMeasures": "string",
+    "tltInfo": {
+      "thrombolytic": "string",
+      "thrombolyticCalcCost": 0,
+      "thrombolyticCount": 0,
+      "thrombolyticFactCost": 0,
+      "tltSuccessful": false
+    },
+    "tltSign": false
+  },
+  "healthCareResult": "string",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "releaseTime": "2026-06-23T07:07:41.000+05:00",
+  "returnTime": "2026-06-23T07:07:41.000+05:00",
+  "signalListDistrictDoctor": false,
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "unknownPerson": false
+}

@@ -1,0 +1,70 @@
+{
+  "activeId": "string",
+  "appointmentDate": "2026-06-23T07:07:41.000+05:00",
+  "appointmentHouse": false,
+  "appointmentId": "string",
+  "appointmentKind": "string",
+  "byAppointment": false,
+  "checkup": {
+    "anMorbi": "string",
+    "anamnesisLife": {
+      "allergoanamnesis": {
+        "allergens": "string",
+        "allergyAnamnesSign": false,
+        "allergyComment": "string",
+        "allergyKind": "string"
+      },
+      "anVitae": "string"
+    },
+    "complaints": "string",
+    "conclusionProf": "string",
+    "medicalRecord": {
+      "fileId": "string",
+      "mimeType": "string"
+    },
+    "objectiveData": {
+      "anthropometrIndicators": {
+        "bmi": 0,
+        "height": 0,
+        "weight": 0
+      },
+      "checkup": "string",
+      "localStatus": "string",
+      "objectiveIndicators": {
+        "heartRate": 0,
+        "nbm": 0,
+        "pressureInfo": {
+          "pressureLeftDiastolic": 0,
+          "pressureLeftSystolic": 0,
+          "pressureRightDiastolic": 0,
+          "pressureRightSystolic": 0
+        },
+        "pulse": 0,
+        "saturation": 0,
+        "temperature": 0
+      }
+    },
+    "recommendation": "string"
+  },
+  "doctorID": 0,
+  "doctorIin": "string",
+  "eventId": "EVENT_MEDICAL_APPOINTMENT_TEMPLATE",
+  "eventType": "MEDICAL_APPOINTMENT",
+  "executed": "string",
+  "houseCallId": "string",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

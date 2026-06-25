@@ -1,0 +1,68 @@
+{
+  "doctorID": 0,
+  "doctorIin": "string",
+  "eventId": "EVENT_REHAB_CASE_TEMPLATE",
+  "eventType": "REHAB_CASE",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "rehabBeginDate": "2026-06-23T07:07:41.000+05:00",
+  "rehabCardID": "string",
+  "rehabCasePlanning": {
+    "indRehabPlan": [
+      {
+        "mdt": [
+          {
+            "doctorID": 0,
+            "specialization": "string"
+          }
+        ],
+        "serviceInfo": [
+          {
+            "serviceCode": "string",
+            "serviceCount": 0
+          }
+        ]
+      }
+    ],
+    "mkFpublCod": "string",
+    "regime": "string",
+    "rehabGoalsInfo": [
+      {
+        "rehabGoal": "string"
+      }
+    ],
+    "rehabilitationLevel": "string",
+    "rehabilitationStage": "string"
+  },
+  "rehabEndDate": "2026-06-23T07:07:41.000+05:00",
+  "rehabPlanImplementation": {
+    "assestmentEffectRehab": "string",
+    "conclusionRouting": "string",
+    "execProgram": false,
+    "failureProgramReason": "string",
+    "mkfDiagID2": 0,
+    "performedServices": [
+      {
+        "serviceId": "string"
+      }
+    ],
+    "rehabGoalResult": "string",
+    "rehabLongGoalRes": "string",
+    "rehabResultComment": "string",
+    "resultRehab": "string",
+    "stateDynamics": "string"
+  },
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

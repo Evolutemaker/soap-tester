@@ -1,0 +1,58 @@
+{
+  "assignmentKduId": "string",
+  "cancelDate": "2026-06-23T07:07:41.000+05:00",
+  "cancelReason": "string",
+  "changeDate": "2026-06-23T07:07:41.000+05:00",
+  "checkId": "string",
+  "count": 0,
+  "diagList": [
+    {
+      "diagChar": "string",
+      "diagKind": "string",
+      "diagType": "string",
+      "mkb10": "string"
+    }
+  ],
+  "eventId": "EVENT_REFERRAL_KDU_TEMPLATE",
+  "eventType": "REFERRAL_KDU",
+  "financeSource": "string",
+  "misId": 0,
+  "motherRpnId": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "parentId": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "patientStatus": "string",
+  "receiverOrganizationBin": "string",
+  "receiverOrganizationId": 0,
+  "referralDate": "2026-06-23T07:07:41.000+05:00",
+  "referralEPSId": "string",
+  "referralServiceExec": "string",
+  "referralStatus": "string",
+  "regPostId": "string",
+  "regPostIin": "string",
+  "rejectReason": "string",
+  "screeningEPSId": "string",
+  "screeningId": "string",
+  "senderDoctorId": 0,
+  "senderDoctorIin": "string",
+  "senderEmployee": 0,
+  "senderEmployeeIin": "string",
+  "senderOrganizationBin": "string",
+  "senderOrganizationId": 0,
+  "senderPosition": "string",
+  "senderPositionText": "string",
+  "serviceCode": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "treatmentReason": 0
+}

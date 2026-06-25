@@ -1,0 +1,63 @@
+{
+  "assignmentCreatedAt": "2026-06-23T07:07:41.000+05:00",
+  "assignmentText": "string",
+  "assignmentType": "string",
+  "doctorId": 0,
+  "eventId": "EVENT_MEDICATION_ASSIGNMENT_TEMPLATE",
+  "eventType": "MEDICATION_ASSIGNMENT",
+  "hospitalizationEventId": "string",
+  "isUrgent": false,
+  "medOrgStructId": 0,
+  "medicalCareType": "string",
+  "medicalKitNutrition": {
+    "firstAidKitContents": "string",
+    "measurementUnit": "string",
+    "packagingType": "string",
+    "receptionNumberPerDay": 0,
+    "recipeSignature": "string",
+    "unitsPackQuantity": 0
+  },
+  "medication": [
+    {
+      "amountPerDose": 0,
+      "codeATH": "string",
+      "codeMNN": "string",
+      "dosageCodeForm": "string",
+      "dosageCodeUnit": "string",
+      "dosageConcentration": "string",
+      "dosageNumberDrug": "string",
+      "dosesPerDay": 0,
+      "indicationForPrescription": false,
+      "inputMethodCode": "string",
+      "irregularPatternDescription": "string",
+      "irregularPatternTotalUnits": 0,
+      "probeAssigned": false,
+      "quantityPerApplication": 0,
+      "recipeSignature": "string",
+      "totalUnitsPrescribed": 0,
+      "tradeNameUID": "string",
+      "treatmentDaysCount": 0,
+      "treatmentEndDate": "2026-06-23",
+      "treatmentStartDate": "2026-06-23",
+      "unitOfMeasure": "string",
+      "unitsPerPackage": 0
+    }
+  ],
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "receptionAppealId": "string",
+  "receptionId": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

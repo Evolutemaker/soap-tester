@@ -1,0 +1,78 @@
+{
+  "ambulanceMedicalCareId": "string",
+  "callingAmbulanceId": "string",
+  "clinicalDeathDate": "2026-06-23T07:07:41.000+05:00",
+  "clinicalDeathSign": false,
+  "conditionBeforeReanimation": "string",
+  "deathIdentificationId": "string",
+  "eventId": "EVENT_CARDIO_PULMONARY_REANIMATION_TEMPLATE",
+  "eventType": "CARDIO_PULMONARY_REANIMATION",
+  "helpBeforeReanimation": false,
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "postReanimationMeasures": {
+    "breathingRestored": false,
+    "consciousnessRestored": false,
+    "intropicSupport": "string",
+    "medicalSedation": "string",
+    "otherMeasures": "string",
+    "reanimationOutcome": "string",
+    "respiratorySupportAfter": "string"
+  },
+  "reanimBrigadeArrivalDateTime": "2026-06-23T07:07:41.000+05:00",
+  "reanimBrigadeCalledDateTime": "2026-06-23T07:07:41.000+05:00",
+  "reanimationBegin": "2026-06-23T07:07:41.000+05:00",
+  "reanimationBrigades": [
+    {
+      "medicalPersonRoles": "string",
+      "medicalPersonText": "string",
+      "medicalWorkerId": 0,
+      "medicalWorkerIin": "string"
+    }
+  ],
+  "reanimationEnd": "2026-06-23T07:07:41.000+05:00",
+  "reanimationMeasures": {
+    "cardiacMonitoring": false,
+    "conicotomy": false,
+    "defibrillation": false,
+    "electricPulseTherapy": false,
+    "heimlichManeuver": false,
+    "indirectHeartMassage": false,
+    "pharmacotherapy": false,
+    "respiratorySupport": "string",
+    "respiratorySupportComment": "string",
+    "respiratoryTract": "string",
+    "respiratoryTractComment": "string",
+    "tracheostomy": false,
+    "venousAccess": "string"
+  },
+  "reanimationMeasuresBefore": {
+    "effectAchieved": 0,
+    "electricPulseTherapyBefore": false,
+    "indirectHeartMassageBefore": false,
+    "pharmacotherapyBefore": false,
+    "reanimationMeasuresIsEffective": false,
+    "respiratorySupportBefore": "string",
+    "venousAccessBefore": false,
+    "whoHelpBeforeReanimation": "string"
+  },
+  "reanimationPlace": "string",
+  "reanimationReason": "string",
+  "reanimationSuccessful": false,
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "violationsDeveloped": "2026-06-23T07:07:41.000+05:00",
+  "violationsIdentified": "string"
+}

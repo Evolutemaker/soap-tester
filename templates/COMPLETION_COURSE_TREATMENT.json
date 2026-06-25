@@ -1,0 +1,89 @@
+{
+  "addAttributesTuberculosis": {
+    "adverseReaction": "string",
+    "complicationExtrapulmTub": "string",
+    "needsPalliativeCare": false,
+    "seriousAdverseReaction": "string",
+    "smearConversion": "string",
+    "symptomaticTreatment": false,
+    "treatmentCategory": "string",
+    "weightControl": [
+      {
+        "measurementDate": "2026-06-23",
+        "weight": 0
+      }
+    ]
+  },
+  "assigmentDrugs": [
+    {
+      "assigmentDrugId": "string"
+    }
+  ],
+  "characterReaction": "string",
+  "clarifyingClinicalDiagnosis": [
+    {
+      "clarifyingDiagDate": "2026-06-23",
+      "section": "string",
+      "sectionPoint": [
+        "string"
+      ]
+    }
+  ],
+  "conclusion": "string",
+  "diagList": [
+    {
+      "diagChar": "string",
+      "diagKind": "string",
+      "diagType": "string",
+      "mkb10": "string",
+      "sickTraumaTypePublicCode": "string"
+    }
+  ],
+  "doctorId": 0,
+  "doctorIin": "string",
+  "doctorPostId": 0,
+  "doctorPostText": "string",
+  "eventId": "EVENT_COMPLETION_COURSE_TREATMENT_TEMPLATE",
+  "eventType": "COMPLETION_COURSE_TREATMENT",
+  "hemodialysis": {
+    "hemodialysSession": "string",
+    "isUrgent": false
+  },
+  "idHospitalization": "string",
+  "incompleteTreatmentReason": "string",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "recomendation": "string",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "surgeryComplications": "string",
+  "thromTherapyPerfomed": false,
+  "thrombNotPerfomReason1": "string",
+  "thrombNotPerfomReason2": "string",
+  "treatmanTerminationDate": "2026-06-23T07:07:41.000+05:00",
+  "treatmanTerminationReason": "string",
+  "treatmentAnswer": "string",
+  "treatmentEffect": "string",
+  "treatmentEffectComment": "string",
+  "treatmentEndDate": "2026-06-23",
+  "treatmentEpisodeBegDate": "2026-06-23",
+  "treatmentEpisodeEndDate": "2026-06-23",
+  "treatmentOutcome": "string",
+  "treatmentPlaningId": "string",
+  "treatmentSideEffect": "string",
+  "treatmentSideEffectSign": false,
+  "treatmentStatus": "string",
+  "treatmentVolume": "string"
+}

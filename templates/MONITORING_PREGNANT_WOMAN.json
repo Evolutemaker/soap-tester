@@ -1,0 +1,102 @@
+{
+  "eventId": "EVENT_MONITORING_PREGNANT_WOMAN_TEMPLATE",
+  "eventType": "MONITORING_PREGNANT_WOMAN",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "registrationId": "string",
+  "scheduledTurnout": {
+    "checkup": {
+      "breastGeneralConditionId": "string",
+      "breastResearchId": "string",
+      "edemaInfo": [
+        {
+          "edema": false,
+          "edemaDuration": 0,
+          "edemaLocalizationId": "string"
+        }
+      ],
+      "effleurageSymptomId": "string",
+      "generalConditionId": "string",
+      "liverSize": 0,
+      "liverSpleenId": "string",
+      "nippleConditionId": "string",
+      "otherOrgans": "string",
+      "respiratorySystemConditionId": "string",
+      "skinId": "string",
+      "skinText": "string",
+      "stomachId": "string",
+      "stomachText": "string",
+      "stoolId": "string",
+      "stoolText": "string",
+      "urinationId": "string",
+      "urinationText": "string",
+      "uterusId": "string"
+    },
+    "examinationDate": "2026-06-23T07:07:41.000+05:00",
+    "generalInfo": {
+      "deliveryRateId": "string",
+      "estimatedChildbirthMethodId": "string",
+      "examinationResultId": "string",
+      "expectedBirthDate": "2026-06-23T07:07:41.000+05:00",
+      "nextExaminationDate": "2026-06-23T07:07:41.000+05:00",
+      "pregnancyPeriodByMenstruation": 0,
+      "pregnancyPeriodByUltrasound": 0
+    },
+    "obstetricStatus": {
+      "abdominalCircumference": 0,
+      "appendagesId": "string",
+      "appendagesText": "string",
+      "cervixInfo": {
+        "cervicalOsId": "string",
+        "cervicalStatusId": "string",
+        "cervixId": "string"
+      },
+      "colposcopyId": "string",
+      "conjugataDiag": 0,
+      "conjugataExt": 0,
+      "conjugataVera": 0,
+      "distantiaCristarum": 0,
+      "distantiaSpinarum": 0,
+      "distantiaTrochanterica": 0,
+      "excrementId": "string",
+      "externalGenitaliaId": "string",
+      "externalGenitaliaText": "string",
+      "fetalBeatsPerMinute": 0,
+      "fetalHeartbeatId": "string",
+      "fetalPositionId": "string",
+      "inspectionOnMirrorsId": "string",
+      "presentationId": "string",
+      "uterineBodyId": "string",
+      "uterineBodySizeInWeeks": 0,
+      "uterineFundusHeight": 0,
+      "uterusLength": 0,
+      "uterusText": "string",
+      "vaginaId": "string",
+      "vaginaText": "string"
+    },
+    "receptionId": "string"
+  },
+  "schoolPreparationChildbirth": [
+    {
+      "doctorId": 0,
+      "lessonSubject": "string",
+      "partnerPresence": false,
+      "recommendations": "string",
+      "visitDate": "2026-06-23T07:07:41.000+05:00"
+    }
+  ],
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "socialContraindicationsId": "string"
+}

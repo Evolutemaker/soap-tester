@@ -1,0 +1,15 @@
+{
+  "eventId": "EVENT_NURSE_CARE_TEMPLATE",
+  "eventType": "NURSE_CARE",
+  "organizationId": 303678,
+  "organizationBin": "string",
+  "patientInformation": {},
+  "patientCode": "string",
+  "signature": { "sign": "ABC123XYZ456...", "signedData": "ABC123XYZ456...", "signerInformation": { "bin": "123456789012", "iin": "{{TEST_IIN}}" } },
+  "hospitalizationId": "HOSPITALIZATION_003",
+  "nurseInfo": { "nurseSurId": 9218, "nurseIin": "string" },
+  "examinationDateTime": "2026-05-18T09:39:49.998Z",
+  "temperatureSheetList": [ { "measurementDateTime": "2026-05-18T09:39:49.998Z", "temperature": 0, "pressureInfo": { "pressureRightSystolic": 0, "pressureRightDiastolic": 0, "pressureLeftSystolic": 0, "pressureLeftDiastolic": 0 }, "respiratoryRatePerMinute": 0, "pulse": 0, "dailyAmountUrine": 0, "dailyAmountSputum": 0, "liquidAmount": 0, "weight": 0 } ],
+  "completingKDUList": [ { "assignmentKDUId": "ASSIGNMENT-KDU-15", "assignmentKDUDone": true } ],
+  "nursingActivities": [ { "nursingDiagnosisActivity": "string" } ]
+}

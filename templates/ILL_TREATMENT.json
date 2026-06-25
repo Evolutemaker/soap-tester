@@ -1,0 +1,81 @@
+{
+  "eventId": "EVENT_ILL_TREATMENT_TEMPLATE",
+  "eventType": "ILL_TREATMENT",
+  "hasPhysicallyInjury": false,
+  "inpatientMedicalExaminationId": "string",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "physicalInjury": {
+    "physicalInjuryDescription": [
+      {
+        "bottomCondition": "string",
+        "color": "string",
+        "featuresBottom": "string",
+        "featuresEdges": "string",
+        "formInjury": "string",
+        "freeFragments": "string",
+        "hairDamage": "string",
+        "injuryType": "string",
+        "lengthInjury": 0,
+        "localization": "string",
+        "microRelief": "string",
+        "relief": "string",
+        "shapeSizeWound": "string",
+        "softTissue": "string",
+        "tissueDefect": "string",
+        "vectorInjury": "string",
+        "widthInjury": 0
+      }
+    ],
+    "spinalInjury": "string"
+  },
+  "physicalInjuryDate": "2026-06-23T07:07:41.000+05:00",
+  "psychologicalState": {
+    "behaviour": "string",
+    "behaviourComment": "string",
+    "conscienceInfo": [
+      {
+        "conscience": "string",
+        "conscienceComment": "string"
+      }
+    ],
+    "memory": "string",
+    "memoryComment": "string",
+    "mindInfo": [
+      {
+        "mind": "string"
+      }
+    ],
+    "mood": "string",
+    "moodComment": "string",
+    "otherSymptomsInfo": [
+      {
+        "otherSymptoms": "string",
+        "otherSymptomsComment": "string"
+      }
+    ],
+    "somatovegetDdisordersInfo": [
+      {
+        "somatovegetDdisorders": "string"
+      }
+    ],
+    "somatovegetDisorders": "string",
+    "somatovegetDisordersComment": "string",
+    "speech": "string",
+    "speechComment": "string"
+  },
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

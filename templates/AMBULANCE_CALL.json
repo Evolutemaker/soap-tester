@@ -1,0 +1,75 @@
+{
+  "ageType": "string",
+  "brigade": {
+    "brigadeNumber": "string",
+    "brigadeProfile": "string",
+    "brigadeTeam": [
+      {
+        "medicalPersonPostId": 0,
+        "medicalPersonRoles": "string",
+        "medicalPersonText": "string",
+        "medicalWorkerIIN": "string",
+        "medicalWorkerId": 0
+      }
+    ],
+    "carBoardNumber": "string",
+    "carStateNumber": "string"
+  },
+  "brigadeDepartureDateTime": "2026-06-23T07:07:41.000+05:00",
+  "callInfo": "string",
+  "callSerialNumber": 0,
+  "callTransferDateTime": "2026-06-23T07:07:41.000+05:00",
+  "callersAddress": {
+    "addressApartment": "string",
+    "addressBuilding": "string",
+    "addressCity": "string",
+    "addressComments": "string",
+    "addressDistrict": "string",
+    "addressSection": "string",
+    "addressStreet": "string",
+    "buildingDoorPassword": "string",
+    "buildingEntrance": 0,
+    "buildingFloor": 0
+  },
+  "callersFio": "string",
+  "callersNumber": "string",
+  "callingAmbulanceAccepted": {
+    "callingAddInfo": "string",
+    "dispatcherEvacuatorFio": "string",
+    "dispatcherFio": "string",
+    "dispatcherSubstationsFio": "string",
+    "substationsNumber": "string",
+    "transferOtherServices": "string",
+    "transferOtherServicesDateTime": "2026-06-23T07:07:41.000+05:00",
+    "whoAccepted": "string"
+  },
+  "callingAmbulanceDateTime": "2026-06-23T07:07:41.000+05:00",
+  "callingAmbulancePlace": "string",
+  "callingOutcome": "string",
+  "callingOutcomeComment": "string",
+  "callingProfile": "string",
+  "callingType": "string",
+  "eventId": "EVENT_AMBULANCE_CALL_TEMPLATE",
+  "eventType": "AMBULANCE_CALL",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientAge": 0,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "primaryCallId": "string",
+  "reasonCallingAmbulance": "string",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "unknownPerson": false,
+  "urgencyCategory": "string",
+  "whoCalled": "string"
+}

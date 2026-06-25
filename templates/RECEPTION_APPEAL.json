@@ -1,0 +1,68 @@
+{
+  "appointments": [
+    {
+      "assignmentIsloId": "string"
+    }
+  ],
+  "assignmentKDUList": [
+    {
+      "assignmentKduId": "string"
+    }
+  ],
+  "circulationSystem": "string",
+  "disabilityId": "string",
+  "eventId": "EVENT_RECEPTION_APPEAL_TEMPLATE",
+  "eventType": "RECEPTION_APPEAL",
+  "informedConsent": false,
+  "isolation": false,
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "patientManualEntry": {
+    "anonimPatient": false,
+    "anonimPatientInfo": {
+      "anonimPatientBirthDate": "2026-06-23",
+      "anonimPatientRegion": "string",
+      "anonimPatientSex": "string"
+    },
+    "newPatient": false,
+    "newPatientInfo": {
+      "newPatientBirthDate": "2026-06-23",
+      "newPatientCitizenship": "string",
+      "newPatientFirstName": "string",
+      "newPatientLastName": "string",
+      "newPatientSecondName": "string",
+      "newPatientSex": "string"
+    },
+    "patientCode": "string",
+    "unknownPatient": false,
+    "unknownPatientInfo": {
+      "unknownPatientAgeGroup": "string",
+      "unknownPatientSex": "string"
+    }
+  },
+  "performedServices": [
+    {
+      "recipientBloodGroup": "string",
+      "recipientRhFactor": "string",
+      "serviceCode": "string"
+    }
+  ],
+  "receptionAppealOutcome": "string",
+  "receptionId": "string",
+  "referralId": "string",
+  "requestDate": "2026-06-23T07:07:41.000+05:00",
+  "requestType": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

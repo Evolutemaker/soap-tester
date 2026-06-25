@@ -1,0 +1,23 @@
+{
+  "additionalInformation": "string",
+  "callingDate": "2026-06-23T07:07:41.000+05:00",
+  "callingNumber": "string",
+  "callingReason": "string",
+  "callingStatusId": 0,
+  "changeDate": "2026-06-23T07:07:41.000+05:00",
+  "eventId": "EVENT_HOUSE_CALL_TEMPLATE",
+  "eventType": "HOUSE_CALL",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "paddressId": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "regPostId": 0,
+  "regPostIin": "string",
+  "rejectReason": "string",
+  "senderDoctorId": 0,
+  "senderDoctorIin": "string"
+}

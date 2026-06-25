@@ -1,0 +1,41 @@
+{
+  "accountingBlood": {
+    "componentCode": 4567,
+    "componentExpireDateTime": "2025-12-31T23:59:59Z",
+    "componentLocation": "Холодильник №3, лаборатория",
+    "componentNumber": 20230910,
+    "componentRegDateTime": "2025-09-10T08:30:00Z",
+    "dicComponentNameId": 15,
+    "donorInfo": [
+      {
+        "donorId": 123456,
+        "iin": "123456789012",
+        "rpnId": "12345",
+        "visitsId": 78910
+      }
+    ],
+    "doses": 2,
+    "invoiceDateTime": "2025-09-10T09:15:00Z",
+    "invoiceNumber": 0,
+    "personInfo": {
+      "personFIO": "Иван Иванов",
+      "personSurid": 34567
+    },
+    "receivingOrganizationBin": "123456789012",
+    "receivingOrganizationSurId": 98765,
+    "volume": 450
+  },
+  "eventId": "EVENT_BLOOD_PRODUCT_RECORD_TEMPLATE",
+  "eventType": "BLOOD_PRODUCT_RECORD",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

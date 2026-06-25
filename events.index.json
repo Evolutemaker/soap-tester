@@ -1,0 +1,374 @@
+{
+  "ACTIVE": {
+    "path": "/active",
+    "eventType": "ACTIVE",
+    "ru": "Актив",
+    "summary": "Создать событие 'Актив'"
+  },
+  "AMBULANCE_CALL": {
+    "path": "/ambulance-call",
+    "eventType": "AMBULANCE_CALL",
+    "ru": "Вызов скорой помощи",
+    "summary": "Создать событие 'Вызов скорой помощи'"
+  },
+  "ANESTHESIA": {
+    "path": "/anesthesia",
+    "eventType": "ANESTHESIA",
+    "ru": "Анестезия",
+    "summary": "Создать событие 'Анестезия'"
+  },
+  "ASSESSMENT": {
+    "path": "/assessment",
+    "eventType": "ASSESSMENT",
+    "ru": "Оценка",
+    "summary": "Создать событие 'Оценка'"
+  },
+  "ASSIGNMENT_KDU": {
+    "path": "/assignment-kdu",
+    "eventType": "ASSIGNMENT_KDU",
+    "ru": "Назначение КДУ",
+    "summary": "Создать событие 'Назначение КДУ'"
+  },
+  "BIOLOGICAL_DEATH_CONFIRMATION": {
+    "path": "/biological-death-confirmation",
+    "eventType": "BIOLOGICAL_DEATH_CONFIRMATION",
+    "ru": "Констатация биологической смерти",
+    "summary": "Создать событие 'Констатация биологической смерти'"
+  },
+  "BIRTH_REGISTRATION": {
+    "path": "/birth-registration",
+    "eventType": "BIRTH_REGISTRATION",
+    "ru": "Медицинское свидетельство о рождении",
+    "summary": "Создать событие 'Медицинское свидетельство о рождении'"
+  },
+  "BLOOD_PRODUCT_RECORD": {
+    "path": "/blood-product-record",
+    "eventType": "BLOOD_PRODUCT_RECORD",
+    "ru": "Учет препаратов крови",
+    "summary": "Создать событие 'Учет препаратов крови'"
+  },
+  "BLOOD_TRANSFUSION": {
+    "path": "/blood-transfusion",
+    "eventType": "BLOOD_TRANSFUSION",
+    "ru": "Гемотрансфузия",
+    "summary": "Создать событие 'Гемотрансфузия'"
+  },
+  "BRAIN_DEATH_CONFIRMATION": {
+    "path": "/brain-death-confirmation",
+    "eventType": "BRAIN_DEATH_CONFIRMATION",
+    "ru": "Констатация гибели мозга",
+    "summary": "Создать событие 'Констатация гибели мозга'"
+  },
+  "CARDIO_PULMONARY_REANIMATION": {
+    "path": "/cardio-pulmonary-reanimation",
+    "eventType": "CARDIO_PULMONARY_REANIMATION",
+    "ru": "Сердечно-легочная реанимация",
+    "summary": "Создать событие 'Сердечно-легочная реанимация'"
+  },
+  "COMPLETION_COURSE_TREATMENT": {
+    "path": "/completion-course-treatment",
+    "eventType": "COMPLETION_COURSE_TREATMENT",
+    "ru": "Завершение курса лечения",
+    "summary": "Создать событие 'Завершение курса лечения'"
+  },
+  "DEATH_CONCLUSION": {
+    "path": "/death-conclusion",
+    "eventType": "DEATH_CONCLUSION",
+    "ru": "Заключение о смерти",
+    "summary": "Создать событие 'Заключение о смерти'"
+  },
+  "DEATH_FACT_ESTABLISHMENT": {
+    "path": "/death-fact-establishment",
+    "eventType": "DEATH_FACT_ESTABLISHMENT",
+    "ru": "Установление факта смерти",
+    "summary": "Создать событие 'Установление факта смерти'"
+  },
+  "DELIVERY_HISTORY": {
+    "path": "/delivery-history",
+    "eventType": "DELIVERY_HISTORY",
+    "ru": "История родов",
+    "summary": "Создать событие 'История родов'"
+  },
+  "DISABILITY": {
+    "path": "/disability",
+    "eventType": "DISABILITY",
+    "ru": "Нетрудоспособность",
+    "summary": "Создать событие 'Нетрудоспособность'"
+  },
+  "DISCHARGE": {
+    "path": "/discharge",
+    "eventType": "DISCHARGE",
+    "ru": "Выписка",
+    "summary": "Создать событие 'Выписка'"
+  },
+  "DISEASE_MANAGEMENT_EXCLUSION": {
+    "path": "/disease-management-exclusion",
+    "eventType": "DISEASE_MANAGEMENT_EXCLUSION",
+    "ru": "Исключение из ПУЗ",
+    "summary": "Создать событие 'Исключение из ПУЗ'"
+  },
+  "DISEASE_MANAGEMENT_MONITORING": {
+    "path": "/disease-management-monitoring",
+    "eventType": "DISEASE_MANAGEMENT_MONITORING",
+    "ru": "Наблюдение в ПУЗ",
+    "summary": "Создать событие 'Наблюдение в ПУЗ'"
+  },
+  "DISEASE_MANAGEMENT_REGISTRATION": {
+    "path": "/disease-management-registration",
+    "eventType": "DISEASE_MANAGEMENT_REGISTRATION",
+    "ru": "Включение в ПУЗ",
+    "summary": "Создать событие 'Включение в ПУЗ'"
+  },
+  "DISPENSARY_DEREGISTRATION": {
+    "path": "/dispensary-deregistration",
+    "eventType": "DISPENSARY_DEREGISTRATION",
+    "ru": "Снятие с Д-учета",
+    "summary": "Создать событие 'Снятие с Д-учета'"
+  },
+  "DISPENSARY_REGISTRATION": {
+    "path": "/dispensary-registration",
+    "eventType": "DISPENSARY_REGISTRATION",
+    "ru": "Постановка на Д-учет",
+    "summary": "Создать событие 'Постановка на Д-учет'"
+  },
+  "DONOR_FUNCTION": {
+    "path": "/donor-function",
+    "eventType": "DONOR_FUNCTION",
+    "ru": "Функция донора",
+    "summary": "Создать событие 'Функция донора'"
+  },
+  "DYNAMIC_MONITORING": {
+    "path": "/dynamic-monitoring",
+    "eventType": "DYNAMIC_MONITORING",
+    "ru": "Д-наблюдение",
+    "summary": "Создать событие 'Д-наблюдение'"
+  },
+  "HEMODIALYSIS": {
+    "path": "/hemodialysis",
+    "eventType": "HEMODIALYSIS",
+    "ru": "Сеанс гемодиализа",
+    "summary": "Создать событие 'Сеанс гемодиализа'"
+  },
+  "HOSPITAL_TRANSFER": {
+    "path": "/hospital-transfer",
+    "eventType": "HOSPITAL_TRANSFER",
+    "ru": "Транспортировка пациента",
+    "summary": "Создать событие 'Транспортировка пациента'"
+  },
+  "HOSPITALIZATION": {
+    "path": "/hospitalization",
+    "eventType": "HOSPITALIZATION",
+    "ru": "Госпитализация",
+    "summary": "Создать событие 'Госпитализация'"
+  },
+  "HOSPITALIZATION_REFUSAL": {
+    "path": "/hospitalization-refusal",
+    "eventType": "HOSPITALIZATION_REFUSAL",
+    "ru": "Отказ в госпитализации",
+    "summary": "Создать событие 'Отказ в госпитализации'"
+  },
+  "HOUSE_CALL": {
+    "path": "/house-call",
+    "eventType": "HOUSE_CALL",
+    "ru": "Вызов на дом",
+    "summary": "Создать событие 'Вызов на дом'"
+  },
+  "ILL_TREATMENT": {
+    "path": "/ill-treatment",
+    "eventType": "ILL_TREATMENT",
+    "ru": "Жестокое обращение",
+    "summary": "Создать событие 'Жестокое обращение'"
+  },
+  "INPATIENT_MEDICAL_EXAMINATION": {
+    "path": "/inpatient-medical-examination",
+    "eventType": "INPATIENT_MEDICAL_EXAMINATION",
+    "ru": "Общий осмотр врача",
+    "summary": "Создать событие 'Общий осмотр врача'"
+  },
+  "MEDICAL_APPOINTMENT": {
+    "path": "/medical-appointment",
+    "eventType": "MEDICAL_APPOINTMENT",
+    "ru": "Прием врача",
+    "summary": "Создать событие 'Прием врача'"
+  },
+  "MEDICAL_COMMISSION_CONCLUSION": {
+    "path": "/medical-commission-conclusion",
+    "eventType": "MEDICAL_COMMISSION_CONCLUSION",
+    "ru": "Заключение ВКК (МДГ)",
+    "summary": "Создать событие 'Заключение ВКК (МДГ)'"
+  },
+  "MEDICAL_WITHDRAWAL": {
+    "path": "/medical-withdrawal",
+    "eventType": "MEDICAL_WITHDRAWAL",
+    "ru": "Мед отвод",
+    "summary": "Создать событие 'Мед отвод'"
+  },
+  "MEDICATION_ASSIGNMENT": {
+    "path": "/medication-assignment",
+    "eventType": "MEDICATION_ASSIGNMENT",
+    "ru": "Назначение ЛС",
+    "summary": "Создать событие 'Назначение ЛС'"
+  },
+  "MEDICATION_ASSIGNMENT_EXECUTION": {
+    "path": "/medication-assignment-execution",
+    "eventType": "MEDICATION_ASSIGNMENT_EXECUTION",
+    "ru": "Выполнение назначения ЛС",
+    "summary": "Создать событие 'Выполнение назначения ЛС'"
+  },
+  "MEDICATION_PRESCRIPTION": {
+    "path": "/medication-prescription",
+    "eventType": "MEDICATION_PRESCRIPTION",
+    "ru": "Обеспечение рецепта",
+    "summary": "Создать событие 'Обеспечение рецепта'"
+  },
+  "MEDICATION_RECIPE": {
+    "path": "/medication-recipe",
+    "eventType": "MEDICATION_RECIPE",
+    "ru": "Рецепт ЛС",
+    "summary": "Создать событие 'Рецепт ЛС'"
+  },
+  "MONITORING_FERTILE_WOMAN": {
+    "path": "/monitoring-fertile-woman",
+    "eventType": "MONITORING_FERTILE_WOMAN",
+    "ru": "Наблюдение за женщиной фертильного возраста",
+    "summary": "Создать событие 'Наблюдение за женщиной фертильного возраста'"
+  },
+  "MONITORING_PREGNANT_WOMAN": {
+    "path": "/monitoring-pregnant-woman",
+    "eventType": "MONITORING_PREGNANT_WOMAN",
+    "ru": "Наблюдение за беременной женщиной",
+    "summary": "Создать событие 'Наблюдение за беременной женщиной'"
+  },
+  "NEWBORN_HISTORY": {
+    "path": "/newborn-history",
+    "eventType": "NEWBORN_HISTORY",
+    "ru": "История новорожденного",
+    "summary": "Создать событие 'История новорожденного'"
+  },
+  "NEWBORN_REANIMATION": {
+    "path": "/newborn-reanimation",
+    "eventType": "NEWBORN_REANIMATION",
+    "ru": "Реанимация новорожденного",
+    "summary": "Создать событие 'Реанимация новорожденного'"
+  },
+  "NPPI_VACCINATION": {
+    "path": "/nppi-vaccination",
+    "eventType": "NPPI_VACCINATION",
+    "ru": "НППИ Вакцинация",
+    "summary": "Создать событие 'НППИ Вакцинация'"
+  },
+  "NURSE_APPEAL": {
+    "path": "/nurse-appeal",
+    "eventType": "NURSE_APPEAL",
+    "ru": "Сестринский прием",
+    "summary": "Создать событие 'Сестринский прием'"
+  },
+  "NURSE_CARE": {
+    "path": "/nurse-care",
+    "eventType": "NURSE_CARE",
+    "ru": "Сестринский уход",
+    "summary": "Создать событие 'Сестринский уход'"
+  },
+  "PATIENT_PLACEMENT": {
+    "path": "/patient-placement",
+    "eventType": "PATIENT_PLACEMENT",
+    "ru": "Размещение пациента",
+    "summary": "Создать событие 'Размещение пациента'"
+  },
+  "PREGNANCY_DEREGISTRATION": {
+    "path": "/pregnancy-deregistration",
+    "eventType": "PREGNANCY_DEREGISTRATION",
+    "ru": "Снятие с учета по беременности",
+    "summary": "Создать событие 'Снятие с учета по беременности'"
+  },
+  "PREGNANCY_REGISTRATION": {
+    "path": "/pregnancy-registration",
+    "eventType": "PREGNANCY_REGISTRATION",
+    "ru": "Постановка на учет по беременности",
+    "summary": "Создать событие 'Постановка на учет по беременности'"
+  },
+  "PREOPERATIVE_SUMMARY": {
+    "path": "/preoperative-summary",
+    "eventType": "PREOPERATIVE_SUMMARY",
+    "ru": "Предоперационный эпикриз",
+    "summary": "Создать событие 'Предоперационный эпикриз'"
+  },
+  "PROVISION_CARE": {
+    "path": "/provision-care",
+    "eventType": "PROVISION_CARE",
+    "ru": "Оказание медицинской помощи",
+    "summary": "Создать событие 'Оказание медицинской помощи'"
+  },
+  "RECEPTION_APPEAL": {
+    "path": "/reception-appeal",
+    "eventType": "RECEPTION_APPEAL",
+    "ru": "Обращение в приемный покой",
+    "summary": "Создать событие 'Обращение в приемный покой'"
+  },
+  "RECORD_APPOINTMENT": {
+    "path": "/record-appointment",
+    "eventType": "RECORD_APPOINTMENT",
+    "ru": "Запись на прием",
+    "summary": "Создать событие 'Запись на прием'"
+  },
+  "REFERRAL_HOSPITALIZATION": {
+    "path": "/referral-hospitalization",
+    "eventType": "REFERRAL_HOSPITALIZATION",
+    "ru": "Направление на госпитализацию",
+    "summary": "Создать событие 'Направление на госпитализацию'"
+  },
+  "REFERRAL_KDU": {
+    "path": "/referral-kdu",
+    "eventType": "REFERRAL_KDU",
+    "ru": "Направление на КДУ",
+    "summary": "Создать событие 'Направление на КДУ'"
+  },
+  "REHAB_CASE": {
+    "path": "/rehab-case",
+    "eventType": "REHAB_CASE",
+    "ru": "Случай реабилитации",
+    "summary": "Создать событие 'Случай реабилитации'"
+  },
+  "REHABILITATION_CARD": {
+    "path": "/rehabilitation-card",
+    "eventType": "REHABILITATION_CARD",
+    "ru": "Карта реабилитации",
+    "summary": "Создать событие 'Карта реабилитации'"
+  },
+  "SCREENING": {
+    "path": "/screening",
+    "eventType": "SCREENING",
+    "ru": "Скрининг",
+    "summary": "Создать событие 'Скрининг'"
+  },
+  "SELF_MONITORING_DISEASE_MANAGEMENT": {
+    "path": "/self-monitoring-disease-management",
+    "eventType": "SELF_MONITORING_DISEASE_MANAGEMENT",
+    "ru": "Самонаблюдение в ПУЗ",
+    "summary": "Создать событие 'Самонаблюдение в ПУЗ'"
+  },
+  "SERVICE": {
+    "path": "/service",
+    "eventType": "SERVICE",
+    "ru": "Услуга",
+    "summary": "Создать событие 'Услуга'"
+  },
+  "SURGERY": {
+    "path": "/surgery",
+    "eventType": "SURGERY",
+    "ru": "Операция",
+    "summary": "Создать событие 'Операция'"
+  },
+  "TREATMENT_PLANNING": {
+    "path": "/treatment-planning",
+    "eventType": "TREATMENT_PLANNING",
+    "ru": "Планирование курса лечения",
+    "summary": "Создать событие 'Планирование курса лечения'"
+  },
+  "VACCINATION": {
+    "path": "/vaccination",
+    "eventType": "VACCINATION",
+    "ru": "Вакцинация",
+    "summary": "Создать событие 'Вакцинация'"
+  }
+}

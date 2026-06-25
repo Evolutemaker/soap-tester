@@ -1,0 +1,56 @@
+{
+  "assignmentId": "string",
+  "contractTypeCode": 0,
+  "doctorId": 0,
+  "drugType": "string",
+  "eventId": "EVENT_MEDICATION_RECIPE_TEMPLATE",
+  "eventType": "MEDICATION_RECIPE",
+  "isPinkRecipe": false,
+  "medOrgStructId": 0,
+  "medication": {
+    "amountPerDose": 0,
+    "dosageCodeUnit": "string",
+    "dosageConcentration": "string",
+    "dosageNumberDrug": "string",
+    "inputMethodCode": "string",
+    "irregularPatternDescription": "string",
+    "irregularPatternTotalUnits": 0,
+    "packagesAmount": 0,
+    "positionOrderId": "string",
+    "recipeSignature": "string",
+    "tradeNameUID": "string",
+    "treatmentDaysCount": 0,
+    "treatmentEndDate": "2026-06-23",
+    "treatmentStartDate": "2026-06-23",
+    "unitsAttribute": false,
+    "unitsPerPackage": 0
+  },
+  "misId": 0,
+  "nutrition": {
+    "mDevUnitsPackQuantity": 0,
+    "measurementUnit": "string",
+    "receptionDaysCount": 0,
+    "recipeSignature": "string",
+    "tradeName": "string",
+    "unitsAttribute": false
+  },
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "recipeCreatedAt": "2026-06-23T07:07:41.000+05:00",
+  "recipeExpirationDate": "2026-06-23T07:07:41.000+05:00",
+  "recipeNumber": "string",
+  "recipeType": "FREE",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "unitsAttribute": false
+}

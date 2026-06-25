@@ -1,0 +1,60 @@
+{
+  "adoptionDate": "2026-06-23T07:07:41.000+05:00",
+  "commentInfect": "string",
+  "contactInfect": false,
+  "dateOfIssue": "2026-06-23T07:07:41.000+05:00",
+  "diagnoses": {
+    "sickId": "101",
+    "sickStageId": 3
+  },
+  "docDisType": "string",
+  "doctMseId": 0,
+  "eventId": "EVENT_DISABILITY_TEMPLATE",
+  "eventType": "DISABILITY",
+  "fileId": "string",
+  "fioDoctMse": "string",
+  "hospitalizationId": "string",
+  "issue": "string",
+  "learner": "string",
+  "listId": "string",
+  "misId": 0,
+  "nameOrganization": "string",
+  "number": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "persNeedCareMKB10": "string",
+  "receptionId": "string",
+  "regime": "string",
+  "releaseFromWork": {
+    "doctPositionText": "string",
+    "doctTillReleaseId": 0,
+    "sinceReleaseWork": "2026-06-23T07:07:41.000+05:00",
+    "surIDDoctTillReleas": 0,
+    "tillReleaseWork": "2026-06-23T07:07:41.000+05:00"
+  },
+  "rpnIdPersNeedCare": "string",
+  "sentToMse": "2026-06-23T07:07:41.000+05:00",
+  "sickQuarantine": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "sinceInHosp": "2026-06-23T07:07:41.000+05:00",
+  "sinceTempJob": "2026-06-23T07:07:41.000+05:00",
+  "sinceTreatment": "2026-06-23T07:07:41.000+05:00",
+  "specifyTempDis": "string",
+  "startWork": "2026-06-23T07:07:41.000+05:00",
+  "status": "string",
+  "tillInHosp": "2026-06-23T07:07:41.000+05:00",
+  "tillTempJob": "2026-06-23T07:07:41.000+05:00",
+  "tillTreatment": "2026-06-23T07:07:41.000+05:00",
+  "violatOfRegime": "string"
+}

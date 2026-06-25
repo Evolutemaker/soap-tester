@@ -1,0 +1,52 @@
+{
+  "eventId": "EVENT_INPATIENT_MEDICAL_EXAMINATION_TEMPLATE",
+  "misId": 9007199254740991,
+  "eventType": "INPATIENT_MEDICAL_EXAMINATION",
+  "organizationId": 303678,
+  "organizationBin": "string",
+  "patientInformation": { "rpnId": "030520600507", "iin": "030520600507" },
+  "patientCode": "string",
+  "signatures": { "sign": "ABC123XYZ456...", "signedData": "ABC123XYZ456...", "signerInformation": { "bin": "123456789012", "iin": "123456789012" } },
+  "doctor": { "doctorId": "9218", "doctorIin": "877735992188", "doctorPostId": "string", "doctorPostText": "string" },
+  "feldsher": { "feldsherId": "9218", "feldsherIin": "877735992188" },
+  "examinationDateTime": "2026-04-09T11:19:53.655Z",
+  "diagList": [ { "mkb10": "O07.9", "diagType": "100", "diagKind": "500", "diagChar": "1", "sickTraumaTypePublicCode": "100" } ],
+  "surgeryList": [ { "surgeryCode": "00.09", "surgeryKind": "100" } ],
+  "regimeMedicalCare": "100",
+  "examination": { "inspectionPlace": "100", "patientPlacementId": "string", "inspectionType": "100" },
+  "hospitalDoctorExam": {
+    "complaints": "string",
+    "diaryEntry": { "partogramPostpartumPeriod": [ { "breastfeedingProblem": true, "complaintsSign": true, "dayAfterBirth": "100", "defecationNorma": true, "excretionsCharacter": "100", "mammaryGlandsNorma": true, "sutureHealing": true, "toneUterusNorma": true, "urinationNorma": true, "vaspainScores": "100", "veinsLowerExtremitiesChanged": true, "volumeSelections": "100" } ], "postpartumPeriod": "string" },
+    "anVitaeInfo": {
+      "anVitae": "string",
+      "badHabits": { "alcoholUse": "100", "alcoholCount": 0.1, "smokingSign": true, "drugUse": true },
+      "medicalHistory": { "constantMedicaments": true, "basicDrugs": "string" },
+      "anepid": "string",
+      "allergoanamnesis": [ { "allergyAnamnesSign": true, "allergyKind": "100", "allergens": "10000", "allergyComment": "string" } ],
+      "transfusionHistory": { "transfusionHistorySign": "100", "transfusionComplications": "string", "transfusionComplicationsText": "string", "obstetricHistory": "100", "obstetricHistoryText": "string", "immunFeatures": "100", "immunFeaturesText": "string" },
+      "cardioAnamnes": [ { "prevCardioAnamnes": "100", "prevCardioAnamnesValue": "100", "prevCardioAnamnesComment": "string", "nonCardiacPathology": "100", "historyRevascularization": "100", "cardioAnamnesText": "string" } ],
+      "obstetricGynecologicalHistory": { "lastMenstruationDate": "2026-04-09T11:19:53.655Z", "menarche": 1073741824, "virgo": true, "birthsCount": 1073741824, "abortionsCount": 1073741824, "pregnanciesCount": 1073741824, "ecoInducedPregnancy": true }
+    },
+    "addAttributesOtolaryngological": { "audiologicalScreeningDirect": true, "devicesSystemsUsed": [ { "hearingAidInfo": [ { "hearingAid": "100", "hearingAidUse": true, "onSide": "100" } ], "implantableSystemInfo": [ { "implantableSystem": "100", "implantableSystemUse": "string", "onSide": "100" } ] } ], "diseaseDirect": true, "researchMethods": [ { "diagnosis": "100", "researchSide": "100" } ] },
+    "anMorbi": "string",
+    "antiRabiesAssistance": { "anamnesis": { "antiRabiesVaccinations": "string", "nervousSystemDisease": "string", "vaccinationsID": "string", "vaccinationsScheduled": true }, "animalInfo": "string", "animalRabiesSign": "100", "animalStatus": "100", "biteInfo": "string" },
+    "checkupInfo": {
+      "checkup": "string",
+      "expandedObjectiveData": { "consciousness": "100", "state": "100", "reactionLight": "100", "orientationSpace": "100", "bodyType": "100", "skinColor": "100", "skinMoisture": "100", "skinCondition": "100", "skinMarbling": true, "skinTurgor": "100", "fattyTissue": true, "peripheralEdema": "100", "peripheralLymphNodes": true, "cervicalLymphNodes": true, "axillaryLymphNodes": true, "inguinalLymphNodes": true, "pharynx": "100", "tonsils": "100", "language": "100", "thyroidGland": "string", "chestExcursion": "100", "percussionSound": "100", "auscultatoryBreathing": "100", "wheezing": "100", "dyspnea": "100", "heartSounds": "100", "heartMurmurs": "100", "stomach": "100", "bellyShape": "100", "densityOrgans": [ { "organs": "100", "density": "100" } ], "tinglingSymptom": "1", "diuresis": "100", "feces": "100", "musculoskeletalSystem": "string", "psychoemotionalStatus": "100", "behaviour": "100", "neuropsychStatus": "string" },
+      "obstetricStatus": { "pregnancyPeriodWeek": 45, "pregnancyPeriodDay": 1073741824, "uterineTone": "100", "dischargeFromGenitals": "1", "fetusesCount": 1073741824, "fetusesData": [ { "fetalHeartbeat": 1073741824, "fetalPosition": "1", "fetalPresentation": "100" } ], "uterineFundusHeight": 1073741824 },
+      "localStatus": "string",
+      "anthropometrIndicators": { "height": 0.1, "weight": 0.1, "bmi": 0.1 },
+      "objectiveIndicators": { "pressureInfo": { "pressureRightSystolic": 1073741824, "pressureRightDiastolic": 1073741824, "pressureLeftSystolic": 1073741824, "pressureLeftDiastolic": 1073741824 }, "heartRate": 1073741824, "cvp": 1073741824, "nbm": 1073741824, "pulse": 1073741824, "temperature": 0.1, "saturation": 1073741824, "liquidAmount": 1073741824, "presenceDefecation": true, "presenceUrination": true, "generalCondition": "string", "physiologicalShipments": "string", "physicalActivity": "string", "painAssessment": "100", "currentStatusByScales": [ { "scalesCod": "Sc1", "scalesName": "string", "scalesResult": "string", "scalesInterpretation": "string" } ] }
+    },
+    "addAttributesOARIT": { "assessmentCondition": "100", "alvInfo": { "minuteRespiratoryVolume": 1073741824, "respiratoryVolume": 1073741824, "pressureInspiration": 1073741824, "fiO2": 1073741824, "capnography": 1073741824, "pip": 1073741824, "peep": 1073741824, "alvtype": "100" }, "alvsign": true, "cvp": 1073741824 },
+    "addAttributesCoronarySyndrome": { "acsanamnesis": "string", "arrivalLocation": "100", "eventPlace": "100", "firstContactDateTime": "2026-05-15T13:30:34.702Z", "firstEKGDateTime": "2026-05-15T13:30:34.702Z", "indexEventTime": "2026-05-15T13:30:34.702Z", "medicalCareDateTime": "2026-05-15T13:30:34.702Z", "stsegmentElevation": "100" },
+    "addAttributesInsult": { "insultAnamnesis": { "indexEventTime": "2026-04-09T11:19:53.655Z", "eventPlace": "100" }, "eventPlace": "100", "insultQuestionnaire": [ { "questions": "100", "answers": true } ], "causeNotCarryingTLT": "string", "tlt6hours": true },
+    "addAttributesNeurological": { "aphasia": "100", "brudzinskiSymptomData": [ { "brudzinskiSymptom": "100" } ], "drinksSipWater": true, "eyeParesisData": [ { "eyeParesis": "100" } ], "kernigSymptom": true, "maxillomandibularNervesData": [ { "maxillomandibularNerve": "100" } ], "neurologicalStatus": "100", "neurologicalStatusData": [ { "neurologicalStatus": "100" } ], "nystagmus": "100", "plegiaData": [ { "plegia": "100" } ], "pupilsData": [ { "pupils": "100" } ], "rigidity": true, "tendonReflexeData": [ { "tendonReflexe": "100" } ] },
+    "neonatologistExam": { "newbornHistoryId": "string", "positionBaby": "string", "screamCharacter": "string", "tremor": true, "muscleTone": "200", "mucosa": "200", "umbilicalCord": "100", "chestShape": "1", "fontanel": "string", "breastfreedingTime": "2026-04-09T11:19:53.655Z", "breastfreedingFrequency": 1073741824, "auscultatoryBreathing": "100", "wheezing": "100", "dyspnea": "100", "heartSounds": "100", "heartMurmurs": "100" },
+    "addAttributesOphthalmological": { "measurement": { "measurementType": "100", "eye": "100", "measurementValue": "1", "measurementComment": "string" }, "ophthalmoscopy": "string", "eyeground": "string", "visualField": "string", "intraocularPressure": { "intraocularPressureOD": 1073741824, "intraocularPressureOS": 1073741824 } },
+    "addAttributeAcuteAbdomen": { "painCharacter": "100", "painPeriodity": "100", "forcedPosition": true, "examinationSimptoms": [ { "simptomName": "100", "simptomComment": "string" } ] }
+  },
+  "recomendation": "string",
+  "conclusionProf": "string",
+  "medicalRecord": { "fileId": "string", "mimeType": "string" }
+}

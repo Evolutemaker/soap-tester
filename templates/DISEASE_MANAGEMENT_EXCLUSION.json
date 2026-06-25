@@ -1,0 +1,31 @@
+{
+  "eventId": "EVENT_DISEASE_MANAGEMENT_EXCLUSION_TEMPLATE",
+  "eventType": "DISEASE_MANAGEMENT_EXCLUSION",
+  "hmpDate": "2025-07-03",
+  "hmpExclusionReason": 2,
+  "hmpId": "HMP-987654",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "selfManagement": {
+    "diet": false,
+    "exercises": false,
+    "fluidIntake": false,
+    "givingUpAlcohol": false,
+    "healthyLifestyleSchoolDirect": false,
+    "smokingCessation": false,
+    "sodium": false
+  },
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

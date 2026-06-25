@@ -1,0 +1,14 @@
+{
+  "assignmentKDUDate": "2026-06-21T09:15:09.062Z",
+  "eventId": "EVENT_ASSIGNMENT_KDU_TEMPLATE",
+  "eventType": "ASSIGNMENT_KDU",
+  "misId": 9007199254740991,
+  "organizationBin": "string",
+  "organizationId": 303678,
+  "patientInformation": { "iin": "{{TEST_IIN}}", "rpnId": "{{TEST_IIN}}" },
+  "receptionId": "string",
+  "serviceCodeId": "1",
+  "serviceQuantity": 1073741824,
+  "sicks": [ { "diagnosisCharacter": 4, "diagnosisKind": 3, "diagnosisType": 2, "mkb10": "101" } ],
+  "signature": { "sign": "ABC123XYZ456...", "signedData": "ABC123XYZ456...", "signerInformation": { "bin": "123456789012", "iin": "123456789012" } }
+}

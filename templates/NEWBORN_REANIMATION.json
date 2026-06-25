@@ -1,0 +1,68 @@
+{
+  "conditionAssessment": {
+    "breathesScreams": false,
+    "breathing": "string",
+    "heartRate": "string",
+    "muscleTone": "string",
+    "newbornFullTerm": false,
+    "pulsationUmbilical": false
+  },
+  "conditionImprovement": false,
+  "deathIdentificationId": "string",
+  "ethicsCommission": "string",
+  "eventId": "EVENT_NEWBORN_REANIMATION_TEMPLATE",
+  "eventType": "NEWBORN_REANIMATION",
+  "increaseHeartRate": false,
+  "independentBreathing": false,
+  "misId": 0,
+  "newbornHistoryId": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "reanimationBeginDataTime": "2026-06-23T07:07:41.000+05:00",
+  "reanimationBrigades": [
+    {
+      "medicalPersonPostId": 0,
+      "medicalPersonText": "string",
+      "medicalWorkerIIN": "string",
+      "medicalWorkerId": 0
+    }
+  ],
+  "reanimationEndDataTime": "2026-06-23T07:07:41.000+05:00",
+  "reanimationMeasures": {
+    "cardiacMonitoring": "string",
+    "cpar": false,
+    "drying": false,
+    "indirectHeartMassag": false,
+    "otherMeasures": "string",
+    "oxygenation": false,
+    "pharmacotherapy": false,
+    "respiratorySupport": "string",
+    "respiratorySupportComment": "string",
+    "respiratoryTract": "string",
+    "respiratoryTractComment": "string",
+    "sanation": false,
+    "tactileStimulation": false,
+    "tracheostomy": false,
+    "venousAccess": "string",
+    "ventilationLungs": false,
+    "warming": false
+  },
+  "reanimationOutcome": "string",
+  "reanimationShown": false,
+  "reanimationSuccessful": false,
+  "riskFactors": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "umbilicalCordClamping": false,
+  "umbilicalCordPumping": false
+}

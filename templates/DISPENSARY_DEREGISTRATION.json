@@ -1,0 +1,26 @@
+{
+  "deregDoctorId": 0,
+  "deregDoctorIin": "string",
+  "deregistrationDate": "2026-06-23T07:07:41.000+05:00",
+  "deregistrationReason": "string",
+  "eventId": "EVENT_DISPENSARY_DEREGISTRATION_TEMPLATE",
+  "eventType": "DISPENSARY_DEREGISTRATION",
+  "mac": "string",
+  "misId": 0,
+  "observationId": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "receptionId": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

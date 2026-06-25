@@ -1,0 +1,76 @@
+{
+  "addAttributesChildOnco": {
+    "blokOnco": "string",
+    "protocolOnco": "string"
+  },
+  "addAttributesRadiationTherapy": {
+    "irradiationMethod": "string",
+    "radiationDoseMetastases": 0,
+    "radiationDoseTumor": 0,
+    "radioModifiersUse": "string"
+  },
+  "addAttributesTuberculosis": {
+    "firstLineMedicationsUse": false,
+    "mlu": false,
+    "secondLineMedicationsUse": false,
+    "shlu": false,
+    "smearConversion": "string",
+    "treatmentCategory": "string"
+  },
+  "clarifyingClinicalDiagnosis": [
+    {
+      "clarifyingDiagDate": "2026-06-23",
+      "section": "string",
+      "sectionPoint": [
+        "string"
+      ]
+    }
+  ],
+  "conditionsMedicalCare": "string",
+  "courseDuration": 0,
+  "diagList": [
+    {
+      "diagChar": "string",
+      "diagKind": "string",
+      "diagType": "string",
+      "mkb10": "string",
+      "sickTraumaTypePublicCode": "string"
+    }
+  ],
+  "diet": "string",
+  "doctorId": "string",
+  "doctorIin": "string",
+  "doctorPostId": "string",
+  "doctorPostText": "string",
+  "eventId": "EVENT_TREATMENT_PLANNING_TEMPLATE",
+  "eventType": "TREATMENT_PLANNING",
+  "hospitalizationId": "string",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "regime": "string",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "treatmentBegDate": "2026-06-23",
+  "treatmentCharacter": "string",
+  "treatmentContraindication": "string",
+  "treatmentEndDate": "2026-06-23",
+  "treatmentIndication": "string",
+  "treatmentKind": "string",
+  "treatmentMethod": "string",
+  "treatmentScheme": "string",
+  "treatmentStage": "string",
+  "treatmentType": "string",
+  "vccId": "string"
+}

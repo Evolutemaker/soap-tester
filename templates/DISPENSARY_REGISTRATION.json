@@ -1,0 +1,83 @@
+{
+  "accountingBSK": {
+    "lateDiagnosisReason": "string"
+  },
+  "autoAggressionInfo": {
+    "autoAggressionDate": "2026-06-23T07:07:41.000+05:00",
+    "autoAggressionIssue": "string",
+    "autoAggressionKind": "string",
+    "autoAggressionMotive": "string"
+  },
+  "clinicalGroup": "string",
+  "detectionType": "string",
+  "dgroup": "string",
+  "diagnoses": {
+    "mkb10": "101",
+    "sickCharacterId": "3",
+    "sickStageId": "3",
+    "sickTypeId": "101"
+  },
+  "diagnosisDate": "2026-06-23T07:07:41.000+05:00",
+  "dischargeCase": "string",
+  "diseaseGroup": "string",
+  "eventId": "EVENT_DISPENSARY_REGISTRATION_TEMPLATE",
+  "eventType": "DISPENSARY_REGISTRATION",
+  "mac": "string",
+  "medicalAppointmentId": "string",
+  "misId": 0,
+  "monDoctorId": 0,
+  "monDoctorIin": 0,
+  "monReason": "string",
+  "narcologicalPsychiatric": {
+    "narcoticUse": [
+      {
+        "narcoticKind": "string",
+        "narcoticUseMethod": "string"
+      }
+    ],
+    "psIzm": "string",
+    "registered": "string"
+  },
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "receptionId": "string",
+  "regDate": "2026-06-23T07:07:41.000+05:00",
+  "regDoctorId": 0,
+  "regDoctorIin": "string",
+  "regKind": "string",
+  "screeningId": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "sociallyDangerousActions": {
+    "article": "string",
+    "codex": "string",
+    "commissionDate": "2026-06-23T07:07:41.000+05:00",
+    "point": "string",
+    "socialDangerousActionKind": "string"
+  },
+  "tuberculosisInfo": {
+    "caseDiseaseAdd": "string",
+    "casesDisease": "string",
+    "contactType": "string",
+    "contingentType": "string",
+    "emergencyNotificationId": "string",
+    "firstSymptomDate": "2026-06-23T07:07:41.000+05:00",
+    "kduperformed": [
+      {
+        "kduId": "string"
+      }
+    ],
+    "treatmentCategory": "string",
+    "vaccinationId": "string"
+  }
+}

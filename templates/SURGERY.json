@@ -1,0 +1,94 @@
+{
+  "accessType": "string",
+  "anesthesiaId": "string",
+  "biomaterialType": "string",
+  "bloodLoss": 0,
+  "bloodTransfusions": [
+    {
+      "bloodTransfusionId": "string"
+    }
+  ],
+  "dayHospitalCardTypeID": "string",
+  "diagList": [
+    {
+      "diagChar": "string",
+      "diagKind": "string",
+      "diagType": "string",
+      "mkb10": "string",
+      "sickTraumaTypePublicCode": "string"
+    }
+  ],
+  "equipmentInfo": [
+    {
+      "equipmentCount": 0,
+      "equipmentId": 0
+    }
+  ],
+  "eventId": "EVENT_SURGERY_TEMPLATE",
+  "eventType": "SURGERY",
+  "hospitalizationId": "string",
+  "informedConsent": false,
+  "layingPatient": "string",
+  "medicalPersonnel": [
+    {
+      "medicalPersonPostId": 0,
+      "medicalPersonRoles": "string",
+      "medicalPersonText": "string",
+      "medicalWorkerIIN": "string",
+      "medicalWorkerId": 0
+    }
+  ],
+  "medicationAssignments": [
+    {
+      "medicationAssignmentsId": "string"
+    }
+  ],
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "outcomeOperation": "string",
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "postoperativeComplications": [
+    {
+      "postoperativeComplications": "string"
+    }
+  ],
+  "postoperativeDirective": "string",
+  "postoperativeRegime": "string",
+  "preoperativeSummaryId": "string",
+  "servicePerformed": [
+    {
+      "serviceCode": "string"
+    }
+  ],
+  "signatures": [
+    {
+      "sign": "ABC123XYZ456...",
+      "signedData": "ABC123XYZ456...",
+      "signerInformation": {
+        "bin": "123456789012",
+        "iin": "123456789012"
+      }
+    }
+  ],
+  "surgBeginDateTime": "2026-06-23T07:07:41.000+05:00",
+  "surgEndDateTime": "2026-06-23T07:07:41.000+05:00",
+  "surgType": "string",
+  "surgeryAreas": "string",
+  "surgeryList": [
+    {
+      "surgeryId": "string",
+      "surgeryKind": "string"
+    }
+  ],
+  "surgeryProtocol": "string",
+  "surgeryReady": false,
+  "surgeryStage": "string",
+  "surgicalInterventionType": "string",
+  "surgicalType": "string",
+  "timeoutSign": false
+}

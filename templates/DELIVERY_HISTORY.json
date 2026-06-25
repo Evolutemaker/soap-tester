@@ -1,0 +1,87 @@
+{
+  "amnioticFluidDateTime": "2026-06-23T07:07:41.000+05:00",
+  "assignmentDrugInfos": [
+    {
+      "assignmentDrug": "string"
+    }
+  ],
+  "birthOnTime": false,
+  "birthPlace": "В стационаре",
+  "birthType": "string",
+  "bloodTransfusionId": "BT-98765",
+  "cervixDilationDateTime": "2026-06-23T07:07:41.000+05:00",
+  "completeCervixDilation": true,
+  "complications": {
+    "complicationsDuringChildbirth": "O62.0 — Первичная слабость родовой деятельности"
+  },
+  "deliveryMethods": "string",
+  "eventId": "EVENT_DELIVERY_HISTORY_TEMPLATE",
+  "eventType": "DELIVERY_HISTORY",
+  "fetalPositionsInfo": [
+    {
+      "fetalPosition": "string"
+    }
+  ],
+  "fetusesCount": 1,
+  "headDown": "Вся головка над входом в малый таз",
+  "hospitalizationId": "string",
+  "laborActivity": "Патологический прелиминарный период",
+  "laborStartDateTime": "2026-06-23T07:07:41.000+05:00",
+  "medicalPersonnel": [
+    {
+      "doctorID": 0,
+      "tookBirth": "string"
+    }
+  ],
+  "medicinalPainReliefDuringLabor": "string",
+  "misId": 0,
+  "multiplePregnanciesSign": false,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "partogram": [
+    {
+      "amnioticFluid": "string",
+      "birthDurationHours": 0,
+      "birthPeriod": "string",
+      "bodyTemperature": 0,
+      "contractionDuration": 0,
+      "contractionFrequency": 0,
+      "dyastolicBloodPressure": 0,
+      "fetusesData": {
+        "birthTumor": "string",
+        "decelerations": "string",
+        "fetalHeartRate": 0,
+        "fetalPresentation": "string",
+        "headConfiguration": "string"
+      },
+      "pulse": 0,
+      "systolicBloodPressure": 0,
+      "urination": "string"
+    }
+  ],
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "placentaBirth": {
+    "datePlacentaBirthDateTime": "2026-06-23T07:07:41.000+05:00",
+    "fetalMembranesPresence": false,
+    "placentaPresence": false,
+    "umbilicalCordPresence": false
+  },
+  "prematureBirth": false,
+  "psychoprophylacticPreparationForChildbirth": false,
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "surgeryId": "SURG-1234",
+  "surrogacy": false,
+  "totalBloodLoss": 450,
+  "waterQuality": "Светлые"
+}

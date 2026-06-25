@@ -1,0 +1,30 @@
+{
+  "cancellation": {
+    "cancelReceptionDate": "2026-06-23T07:07:41.000+05:00",
+    "cancelReceptionReasonId": "string",
+    "cancelUserId": 0,
+    "cancelUserIin": "string",
+    "isCancelReception": false,
+    "modifyDate": "2026-06-23T07:07:41.000+05:00",
+    "modifyUserId": 0,
+    "modifyUserIin": "string"
+  },
+  "eventId": "EVENT_RECORD_APPOINTMENT_TEMPLATE",
+  "eventType": "RECORD_APPOINTMENT",
+  "gridScheduleAddId": 0,
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "paymentType": 0,
+  "receptionDate": "2026-06-23T07:07:41.000+05:00",
+  "recordType": 0,
+  "referralId": "string",
+  "regDate": "2026-06-23T07:07:41.000+05:00",
+  "reserveId": 0,
+  "serviceCode": "string",
+  "treatmentReasonId": 0
+}

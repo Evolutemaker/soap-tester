@@ -1,0 +1,38 @@
+{
+  "appearanceDate": "2026-06-23T07:07:41.000+05:00",
+  "clarifyingClinicalDiagnosis": [
+    {
+      "clarifyingDiagDate": "2026-06-23T07:07:41.000+05:00",
+      "section": "string",
+      "sectionPoint": [
+        "string"
+      ]
+    }
+  ],
+  "eventId": "EVENT_DYNAMIC_MONITORING_TEMPLATE",
+  "eventType": "DYNAMIC_MONITORING",
+  "misId": 0,
+  "nextAppearanceDate": "2026-06-23T07:07:41.000+05:00",
+  "nurseReceptionsId": "string",
+  "observationId": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientConditionInfo": {
+    "patientCondition": "string"
+  },
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "planDate": "2026-06-23T07:07:41.000+05:00",
+  "receptionsId": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "tumorProcessState": "string"
+}

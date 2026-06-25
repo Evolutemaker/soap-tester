@@ -1,0 +1,42 @@
+{
+  "eventId": "EVENT_PREOPERATIVE_SUMMARY_TEMPLATE",
+  "eventType": "PREOPERATIVE_SUMMARY",
+  "funcStructureId": 0,
+  "hospitalizationId": "string",
+  "inpatientMedicalExaminationId": "string",
+  "medicalAppointmentId": "string",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "performedService": [
+    {
+      "serviceId": "string"
+    }
+  ],
+  "plannedSurgeryDateTime": "2026-06-23T07:07:41.000+05:00",
+  "preoperativeEpicrisisDate": "2026-06-23T07:07:41.000+05:00",
+  "recommendation": "string",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "surgeryContraindications": "string",
+  "surgeryIndications": "string",
+  "surgeryList": [
+    {
+      "surgeryId": "string",
+      "surgeryKind": "основная"
+    }
+  ],
+  "surgeryPurpose": "излечение пациента",
+  "surgeryType": "Радикальные"
+}

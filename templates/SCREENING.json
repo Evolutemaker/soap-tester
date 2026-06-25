@@ -1,0 +1,34 @@
+{
+  "completionReason": "string",
+  "diagList": [
+    {
+      "diagChar": "string",
+      "diagKind": "string",
+      "diagType": "string",
+      "mkb10": "string",
+      "sickTraumaTypePublicCode": "string"
+    }
+  ],
+  "eventId": "EVENT_SCREENING_TEMPLATE",
+  "eventType": "SCREENING",
+  "groupId": 0,
+  "healthGroup": "string",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "screeningBeginDate": "2026-06-23T07:07:41.000+05:00",
+  "screeningEPSId": "string",
+  "screeningEndDate": "2026-06-23T07:07:41.000+05:00",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "doctorId": 0,
+  "doctorIin": "string",
+  "doctorPostId": 0,
+  "doctorPostText": "string",
+  "eventId": "EVENT_HEMODIALYSIS_TEMPLATE",
+  "eventType": "HEMODIALYSIS",
+  "hospitalizationId": "string",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "procedureCard": {
+    "assignmentDrugIds": "string",
+    "bloodFlowRate": 0,
+    "dialKind": "string",
+    "dialysateFlowRate": 0,
+    "dryWeight": 0,
+    "laboratoryResearch": [
+      {
+        "measurementPeriod": "string",
+        "serviceId": "string"
+      }
+    ],
+    "patientObservation": [
+      {
+        "observationPeriod": "string",
+        "pressureDiastolic": 0,
+        "pressureSystolic": 0,
+        "pulse": 0,
+        "temperature": 0,
+        "weight": 0
+      }
+    ],
+    "procedureBegDateTime": "2026-06-23T07:07:41.000+05:00",
+    "procedureEndDateTime": "2026-06-23T07:07:41.000+05:00",
+    "razmerDial": 0,
+    "typeDial": "string",
+    "vascularAccess": "string",
+    "vidUfId": "string"
+  },
+  "serviceCode": "string",
+  "treatmentPlanningId": "string"
+}

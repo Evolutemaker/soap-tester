@@ -1,0 +1,50 @@
+{
+  "accompanyingPerson": "string",
+  "bedProfPublicCode": "string",
+  "departmentMO": "string",
+  "diagList": [
+    {
+      "diagChar": "string",
+      "diagKind": "string",
+      "diagType": "string",
+      "mkb10": "string",
+      "sickTraumaTypePublicCode": "string"
+    }
+  ],
+  "doctorId": 0,
+  "epicrisis": {
+    "epicrisisData": "string",
+    "epicrisisType": "string"
+  },
+  "eventId": "EVENT_PATIENT_PLACEMENT_TEMPLATE",
+  "eventType": "PATIENT_PLACEMENT",
+  "genderBed": "string",
+  "hospitalizationId": "string",
+  "misId": 0,
+  "nurseId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientCondition": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "placementDateTime": "2026-06-23T07:07:41.000+05:00",
+  "placementRoom": "string",
+  "placementType": "string",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "surgeryList": [
+    {
+      "surgeryId": "string",
+      "surgeryKind": "string"
+    }
+  ]
+}

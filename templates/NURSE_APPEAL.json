@@ -1,0 +1,128 @@
+{
+  "activeId": "string",
+  "anthropometrIndicators": {
+    "bmi": 0,
+    "height": 0,
+    "waistSize": 0,
+    "weight": 0
+  },
+  "dateRequest": "2026-06-23T07:07:41.000+05:00",
+  "eventId": "EVENT_NURSE_APPEAL_TEMPLATE",
+  "eventType": "NURSE_APPEAL",
+  "fileId": "string",
+  "kdsPerformed": [
+    {
+      "kdsPerformedId": "string"
+    }
+  ],
+  "kdsid": "string",
+  "misId": 0,
+  "nurseInfo": {
+    "nurseIIN": "string",
+    "nursePostID": "string",
+    "nursePostText": "string",
+    "nurseSurID": 0
+  },
+  "nurseOutcome": "string",
+  "nursingDagnosisActivitiesInfo": [
+    {
+      "nursingDiagnosisActivities": "string"
+    }
+  ],
+  "nursingDagnosisStatesInfo": [
+    {
+      "nursingDiagnosisStates": "string"
+    }
+  ],
+  "objectiveConditionComments": "string",
+  "objectiveIndicators": {
+    "heartRate": 0,
+    "nbm": 0,
+    "pediculosis": false,
+    "pressureInfo": {
+      "pressureLeftDiastolic": 0,
+      "pressureLeftSystolic": 0,
+      "pressureRightDiastolic": 0,
+      "pressureRightSystolic": 0
+    },
+    "pulse": 0,
+    "saturation": 0,
+    "scabies": false,
+    "temperature": 0
+  },
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "outcomeComments": "string",
+  "parentsNotify": false,
+  "parentsNotifyComment": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "pregnantWomanExaminationDto": {
+    "complaints": "string",
+    "edemaPresenceSign": false,
+    "fetalHeartbeatId": 0,
+    "fetalPositionId": "string",
+    "generalCondition": "string",
+    "gestationPeriod": 0,
+    "presentation": "string",
+    "psychoprophylacticPrep": "string",
+    "recommendations": "string",
+    "socialLegalAssistance": "string"
+  },
+  "servicePlace": "string",
+  "sickQarantineInfo": {
+    "contactPersonsInfo": [
+      {
+        "contactPersonIin": "string",
+        "contactPersonRpnId": "string"
+      }
+    ],
+    "emergencyNoticesSign": false,
+    "sickQarantine": "string",
+    "sickQarantineComments": "string"
+  },
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "surveyData": {
+    "alcoholUseInfo": {
+      "alcoholCount": 0,
+      "alcoholUse": "string"
+    },
+    "allergyComment": "string",
+    "diet": "string",
+    "drugUse": false,
+    "food": "string",
+    "physicalActivity": "string",
+    "smokingInfo": {
+      "smokingIndex": 0,
+      "smokingKind": "string",
+      "smokingSign": false
+    },
+    "surveysInfo": {
+      "contingentGroupsCode": "string",
+      "questionnaire": "string",
+      "surveysData": [
+        {
+          "answer": false,
+          "avgScore": 0,
+          "questionCode": "string"
+        }
+      ]
+    },
+    "toxicSubUse": false
+  },
+  "treatmentReason": "string",
+  "visualLocalizationInspection": {
+    "inspectionResult": "string",
+    "inspectionResultComments": "string",
+    "localization": "string"
+  }
+}

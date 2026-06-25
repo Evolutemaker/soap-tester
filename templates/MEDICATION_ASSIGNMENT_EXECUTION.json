@@ -1,0 +1,46 @@
+{
+  "completeDateAssignment": "2026-06-23T07:07:41.000+05:00",
+  "doctorId": 0,
+  "eventId": "EVENT_MEDICATION_ASSIGNMENT_EXECUTION_TEMPLATE",
+  "eventType": "MEDICATION_ASSIGNMENT_EXECUTION",
+  "medOrgStructId": 33554433,
+  "medication": [
+    {
+      "drugTradeNameUID": "00000000-0000-0000-0000-000000000000",
+      "expiryDate": "2026-09-30",
+      "markCode": "string",
+      "measureUnit": "string",
+      "receptionPerUnit": 1.0,
+      "series": "string",
+      "testList": {
+        "assignmentUnitQty": 10,
+        "medicationApplicationToPatient": "string",
+        "sampleCompleted": false
+      }
+    }
+  ],
+  "medicationAssignmentId": "string",
+  "misId": 0,
+  "nutrition": {
+    "measurementUnit": "string",
+    "packagingType": "string",
+    "receptionDaysCount": 10,
+    "recipeSignature": "string",
+    "tradeName": "string",
+    "unitsPackQuantity": 3
+  },
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

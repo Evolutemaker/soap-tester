@@ -1,0 +1,41 @@
+{
+  "appearanceDate": "2026-06-23T07:07:41.000+05:00",
+  "classOfNYHA": "string",
+  "confidenceLevel": "string",
+  "diseaseManagementId": "string",
+  "eventId": "EVENT_DISEASE_MANAGEMENT_MONITORING_TEMPLATE",
+  "eventType": "DISEASE_MANAGEMENT_MONITORING",
+  "glucoseAfterMeal": 0,
+  "glucoseBeforeMeal": 0,
+  "misId": 0,
+  "nextAppearanceDate": "2026-06-23T07:07:41.000+05:00",
+  "nurseReceptionsId": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "receptionsId": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "symptomsInfo": {
+    "symptom": "string",
+    "symptomValue": "string"
+  },
+  "targetIndicators": {
+    "diastolicBloodPressure": 0,
+    "fluidIntake": 0,
+    "glucoseAfterMeal": 0,
+    "glucoseBeforeMeal": 0,
+    "sodiumIntake": 0,
+    "systolicBloodPressure": 0,
+    "targetWeight": 0
+  }
+}

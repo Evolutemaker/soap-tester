@@ -1,0 +1,44 @@
+{
+  "eventId": "EVENT_SELF_MONITORING_DISEASE_MANAGEMENT_TEMPLATE",
+  "eventType": "SELF_MONITORING_DISEASE_MANAGEMENT",
+  "misId": 0,
+  "mmProgramId": "MMP-001122",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "selfManagement": {
+    "chestPain": false,
+    "comments": "string",
+    "diastolicBloodPressure": "80/85",
+    "drySkin": false,
+    "dyspneaLowLoadSign": false,
+    "dyspneaSign": false,
+    "edema": false,
+    "feelingHungry": false,
+    "feelingThirst": false,
+    "frequentUrination": false,
+    "glucoseAfterMeals": 7.8,
+    "glucoseBeforeMeals": 6.4,
+    "liquidDrunkAmount": 1800,
+    "nausea": false,
+    "physicalActivityWeek": 4.5,
+    "saltAmount": 5,
+    "seizuresPresence": false,
+    "sweating": false,
+    "systolicBloodPressure": "120/125",
+    "waistCircumference": 92,
+    "weight": 75.3
+  },
+  "selfManagementDate": "2025-07-02",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

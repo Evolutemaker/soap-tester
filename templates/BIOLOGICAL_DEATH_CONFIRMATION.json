@@ -1,0 +1,78 @@
+{
+  "brainDeathBaseSign": false,
+  "brainDeathId": "string",
+  "dateOfDeath": "2026-06-23T07:07:41.000+05:00",
+  "deathIdentificationId": "string",
+  "eventId": "EVENT_BIOLOGICAL_DEATH_CONFIRMATION_TEMPLATE",
+  "eventType": "BIOLOGICAL_DEATH_CONFIRMATION",
+  "medicalPersonnel": [
+    {
+      "medicalPersonSpecialization": "string",
+      "medicalPersonText": "string",
+      "medicalPost": 0,
+      "medicalWorkerIIN": "string",
+      "medicalWorkerId": 0
+    }
+  ],
+  "misId": 0,
+  "organHarvesting": {
+    "allowedEmployeeId": 0,
+    "allowedMOId": 0,
+    "allowedPostId": 0,
+    "organHarvestingBegDateTime": "2026-06-23T07:07:41.000+05:00",
+    "organHarvestingDonated": "string",
+    "organHarvestingEndDateTime": "2026-06-23T07:07:41.000+05:00",
+    "organHarvestingInfo": [
+      {
+        "alvTime": 0,
+        "conductedResearch": [
+          {
+            "serviceCode": "string"
+          }
+        ],
+        "conservationMethod": "string",
+        "conservationPeriod": 0,
+        "degreeWashing": "string",
+        "diuresis": 0,
+        "donorPharmPreparation": false,
+        "donorPharmPreparationComment": "string",
+        "hypotensionTime": 0,
+        "ischemiaPeriod": 0,
+        "organCount": 0,
+        "organHarvestingDateTime": "2026-06-23T07:07:41.000+05:00",
+        "organHarvestingFeatures": "string",
+        "organName": "string",
+        "pressureWashing": "string",
+        "solutionName": "string",
+        "solutionShelfLife": "2026-06-23",
+        "transplantFunction": "string"
+      }
+    ],
+    "werePresents": [
+      {
+        "medicalPersonSpecialization": "string",
+        "medicalPersonText": "string",
+        "medicalPost": 0,
+        "medicalWorkerIIN": "string",
+        "medicalWorkerId": 0
+      }
+    ],
+    "workersPreservedDonorOrgansTissues": [
+      {
+        "medicalPersonSpecialization": "string",
+        "medicalPersonText": "string",
+        "medicalPost": 0,
+        "medicalWorkerIIN": "string",
+        "medicalWorkerId": 0
+      }
+    ]
+  },
+  "organHarvestingAllowed": false,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  }
+}

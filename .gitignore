@@ -1,0 +1,8 @@
+# OS
+.DS_Store
+
+# Responses (generated output files)
+responses/
+
+# Config with credentials — use config.env.example instead
+config.env

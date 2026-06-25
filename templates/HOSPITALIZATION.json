@@ -1,0 +1,56 @@
+{
+  "accompanyingPerson": "string",
+  "addInfo": "string",
+  "bedProfPublicCode": "string",
+  "cardNumber": "string",
+  "departmentMO": "string",
+  "diagList": [
+    {
+      "diagChar": "string",
+      "diagKind": "string",
+      "diagType": "string",
+      "mkb10": "string",
+      "sickTraumaTypePublicCode": "string"
+    }
+  ],
+  "emergencyNotifID": "string",
+  "eventId": "EVENT_HOSPITALIZATION_TEMPLATE",
+  "eventType": "HOSPITALIZATION",
+  "financeSourceID": 0,
+  "hospitalType": "string",
+  "hospitalizationCode": "string",
+  "hospitalizationDateTime": "2026-06-23T07:07:41.000+05:00",
+  "hospitalizationType": "string",
+  "hospitalizedAgainSign": "string",
+  "infections": false,
+  "instructingPatient": false,
+  "misId": 0,
+  "multiplicity": "string",
+  "noticeTargetPublicCode": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientCode": "string",
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "plannedCost": 0,
+  "plannedDischargeDate": "2026-06-23T07:07:41.000+05:00",
+  "quotaNumber": "string",
+  "receptionAppealId": "string",
+  "referralId": "string",
+  "rehabilitationStage": "string",
+  "riskFalling": "string",
+  "sanatoriumProfileCode": "string",
+  "sanitaryTreatment": false,
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "surgeryCode": "string",
+  "transportationType": "string"
+}

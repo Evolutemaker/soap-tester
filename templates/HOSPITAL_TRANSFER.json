@@ -1,0 +1,32 @@
+{
+  "admittedDoctorFio": "string",
+  "admittedDoctorSurId": 0,
+  "ambulanceCallingId": "string",
+  "ambulanceMedicalCareId": "string",
+  "arrivalHospitalDateTime": "2026-06-23T07:07:41.000+05:00",
+  "callingResult": "string",
+  "eventId": "EVENT_HOSPITAL_TRANSFER_TEMPLATE",
+  "eventType": "HOSPITAL_TRANSFER",
+  "hospitalSurId": 0,
+  "hospitalizationDateTime": "2026-06-23T07:07:41.000+05:00",
+  "hospitalizationResult": "string",
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "releaseDateTime": "2026-06-23T07:07:41.000+05:00",
+  "returnDateTime": "2026-06-23T07:07:41.000+05:00",
+  "signatures": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "transportStartDateTime": "2026-06-23T07:07:41.000+05:00",
+  "unknownPerson": false
+}

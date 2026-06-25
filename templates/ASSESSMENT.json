@@ -1,0 +1,62 @@
+{
+  "assessmentSHRM": {
+    "assessmentDateSHRM": "2026-06-23T07:07:41.000+05:00",
+    "assessmentDoctors": [
+      {
+        "doctorID": "string",
+        "doctorIin": "string"
+      }
+    ],
+    "rehabPotential": "string",
+    "shrm": 0
+  },
+  "eventId": "EVENT_ASSESSMENT_TEMPLATE",
+  "eventType": "ASSESSMENT",
+  "internationalMetricsInfo": {
+    "assessmentDateMetrics": "2026-06-23T07:07:41.000+05:00",
+    "assessmentDoctors": [
+      {
+        "doctorID": "string",
+        "doctorIin": "string"
+      }
+    ],
+    "doctorID": "string",
+    "doctorIin": "string",
+    "statusByMetrics": [
+      {
+        "assessmentMetrics": "string",
+        "internationalMetrics": "string"
+      }
+    ]
+  },
+  "misId": 0,
+  "mkfDiagInfo": {
+    "assessmentDateMKF": "2026-06-23T07:07:41.000+05:00",
+    "assessmentDoctors": [
+      {
+        "doctorID": "string",
+        "doctorIin": "string"
+      }
+    ],
+    "doctorID": "string",
+    "doctorIin": "string",
+    "mkfDeterminant1": "string",
+    "mkfDeterminant2": "string",
+    "mkfPublicCode": "string"
+  },
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "rehabCardID": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  }
+}

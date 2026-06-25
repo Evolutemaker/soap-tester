@@ -1,0 +1,64 @@
+{
+  "additionalTests": {
+    "cerebralAngiography": "string",
+    "electroencephalogram": "string"
+  },
+  "brainDeathDateTime": "2026-06-23T07:07:41.000+05:00",
+  "brainDeathMKB10": "string",
+  "brainDeathSigns": {
+    "atonyAllMuscles": "string",
+    "coma": "string",
+    "lackCornealReflexes": "string",
+    "lackIndependBreath": "string",
+    "lackOculocephalicReflexes": "string",
+    "lackOculovestibularReflexes": "string",
+    "lackReactionPain": "string",
+    "lackTrachealReflexes": "string",
+    "pupilsDiameter": 0,
+    "pupilsNotRespond": "string"
+  },
+  "comments": "string",
+  "eventId": "EVENT_BRAIN_DEATH_CONFIRMATION_TEMPLATE",
+  "eventType": "BRAIN_DEATH_CONFIRMATION",
+  "examinationBegDateTime": "2026-06-23T07:07:41.000+05:00",
+  "examinationEndDateTime": "2026-06-23T07:07:41.000+05:00",
+  "factorsExcluded": {
+    "excludedArterialHypotension": false,
+    "excludedHypothermia": false,
+    "excludedHypovolemicShock": false,
+    "excludedIntoxication": false,
+    "excludedMetabolicComa": false,
+    "excludedMuscleRelaxants": false,
+    "excludedNarcotic": false,
+    "specificPose": "string"
+  },
+  "lackIndependBreathTest": {
+    "paCO2Before": 0,
+    "paCO2Middle": 0,
+    "paO2After": 0
+  },
+  "medicalPersonnel": [
+    {
+      "medicalPersonSpecialization": "string",
+      "medicalPersonText": "string",
+      "medicalPost": 0,
+      "medicalWorkerIIN": "string",
+      "medicalWorkerId": 0
+    }
+  ],
+  "misId": 0,
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "pressureDiastolic": 0,
+  "pressureSystolic": 0,
+  "rectalTemperature": 0,
+  "servicePerformed": [
+    {
+      "serviceCode": "string"
+    }
+  ]
+}

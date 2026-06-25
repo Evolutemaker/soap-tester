@@ -1,0 +1,43 @@
+{
+  "autopsy": "string",
+  "convulsionCode": "string",
+  "deathId": "string",
+  "description": "string",
+  "doctorId": 0,
+  "doctorIin": "string",
+  "effectDate": "2026-06-23T07:07:41.000+05:00",
+  "eventId": "EVENT_NPPI_VACCINATION_TEMPLATE",
+  "eventType": "NPPI_VACCINATION",
+  "hospitalizationId": "string",
+  "misId": 0,
+  "notifyDate": "2026-06-23T07:07:41.000+05:00",
+  "nurseId": 0,
+  "nurseIin": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "outcomeCode": "string",
+  "pastMedicalHistory": "string",
+  "patientHospitalization": false,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "seriousCase": false,
+  "seriousCaseCode": "string",
+  "severeLocalReactionCode": "string",
+  "sideEffectsInfo": [
+    {
+      "anotherSideEffect": "string",
+      "sideEffects": "string"
+    }
+  ],
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "vaccinationId": "string"
+}

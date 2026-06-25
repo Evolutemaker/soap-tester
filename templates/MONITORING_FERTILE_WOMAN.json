@@ -1,0 +1,64 @@
+{
+  "anamnesisInfo": {
+    "bloodTransfusionInfo": [
+      {
+        "bloodTransfusionDate": "2026-06-23T07:07:41.000+05:00",
+        "bloodTransfusionReason": "string"
+      }
+    ],
+    "gynecologicalAnamnesis": {
+      "abortionsCount": 0,
+      "birthsCount": 0,
+      "childrenCount": 0,
+      "childrenDeathFirstWeekCount": 0,
+      "criminalReasonAbortionsCount": 0,
+      "ectopicPregnanciesCount": 0,
+      "lastPregnancyCompletionDate": "2026-06-23T07:07:41.000+05:00",
+      "medicalAbortion12weeks": 0,
+      "medicalReasonAbortionsCount": 0,
+      "miniAbortionsCount": 0,
+      "missedAbortionsCount": 0,
+      "pregnanciesCount": 0,
+      "prematurePregnanciesCount": 0,
+      "socialReasonAbortionsCount": 0,
+      "spontaneousAbortionsCount": 0,
+      "stillbirthsCount": 0
+    }
+  },
+  "appearanceDate": "2026-06-23T07:07:41.000+05:00",
+  "conclusionId": "string",
+  "contraception": [
+    {
+      "contraceptionComplications": "string",
+      "contraceptionEndDate": "2026-06-23T07:07:41.000+05:00",
+      "contraceptionStartDate": "2026-06-23T07:07:41.000+05:00",
+      "contraceptionType": "string",
+      "contraceptionUse": "string"
+    }
+  ],
+  "dynamicMonitoringGroup": "string",
+  "eventId": "EVENT_MONITORING_FERTILE_WOMAN_TEMPLATE",
+  "eventType": "MONITORING_FERTILE_WOMAN",
+  "healthStatus": "string",
+  "kdsPerformedId": "string",
+  "misId": 0,
+  "nurseConsultationId": "string",
+  "organizationBin": "string",
+  "organizationId": 123531,
+  "patientInformation": {
+    "iin": "123456789012",
+    "rpnId": "RPN12345"
+  },
+  "receptionId": "string",
+  "signature": {
+    "sign": "ABC123XYZ456...",
+    "signedData": "ABC123XYZ456...",
+    "signerInformation": {
+      "bin": "123456789012",
+      "iin": "123456789012"
+    }
+  },
+  "surveyResults": "string",
+  "surveyResultsComment": "string",
+  "transferReason": "string"
+}
