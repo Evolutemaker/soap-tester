@@ -19,7 +19,7 @@
   },
   "clarifyingClinicalDiagnosis": [
     {
-      "clarifyingDiagDate": "2026-06-23",
+      "clarifyingDiagDate": "{{TODAY}}",
       "section": "string",
       "sectionPoint": [
         "string"
@@ -38,20 +38,20 @@
     }
   ],
   "diet": "string",
-  "doctorId": "string",
-  "doctorIin": "string",
+  "doctorId": 9218,
+  "doctorIin": "123456789012",
   "doctorPostId": "string",
   "doctorPostText": "string",
   "eventId": "EVENT_TREATMENT_PLANNING_TEMPLATE",
   "eventType": "TREATMENT_PLANNING",
   "hospitalizationId": "string",
-  "misId": 0,
-  "organizationBin": "string",
-  "organizationId": 123531,
+  "misId": 9007199254740991,
+  "organizationBin": "123456789012",
+  "organizationId": 303678,
   "patientCode": "string",
   "patientInformation": {
-    "iin": "123456789012",
-    "rpnId": "RPN12345"
+    "iin": "{{TEST_IIN}}",
+    "rpnId": "{{TEST_IIN}}"
   },
   "regime": "string",
   "signatures": {
@@ -62,15 +62,15 @@
       "iin": "123456789012"
     }
   },
-  "treatmentBegDate": "2026-06-23",
+  "treatmentBegDate": "{{TODAY}}",
   "treatmentCharacter": "string",
   "treatmentContraindication": "string",
-  "treatmentEndDate": "2026-06-23",
-  "treatmentIndication": "string",
-  "treatmentKind": "string",
-  "treatmentMethod": "string",
-  "treatmentScheme": "string",
-  "treatmentStage": "string",
+  "treatmentEndDate": "2026-07-29",
+  "treatmentIndication": null,
+  "treatmentKind": null,
+  "treatmentMethod": null,
+  "treatmentScheme": null,
+  "treatmentStage": null,
   "treatmentType": "string",
   "vccId": "string"
 }
