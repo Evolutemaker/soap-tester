@@ -3,8 +3,8 @@
     "cerebralAngiography": "string",
     "electroencephalogram": "string"
   },
-  "brainDeathDateTime": "2026-06-23T07:07:41.000+05:00",
-  "brainDeathMKB10": "string",
+  "brainDeathDateTime": "2026-07-08T10:07:45.906Z",
+  "brainDeathMKB10": "101",
   "brainDeathSigns": {
     "atonyAllMuscles": "string",
     "coma": "string",
@@ -14,48 +14,48 @@
     "lackOculovestibularReflexes": "string",
     "lackReactionPain": "string",
     "lackTrachealReflexes": "string",
-    "pupilsDiameter": 0,
+    "pupilsDiameter": 0.1,
     "pupilsNotRespond": "string"
   },
   "comments": "string",
   "eventId": "EVENT_BRAIN_DEATH_CONFIRMATION_TEMPLATE",
   "eventType": "BRAIN_DEATH_CONFIRMATION",
-  "examinationBegDateTime": "2026-06-23T07:07:41.000+05:00",
-  "examinationEndDateTime": "2026-06-23T07:07:41.000+05:00",
+  "examinationBegDateTime": "2026-07-07T07:07:45.906Z",
+  "examinationEndDateTime": "2026-07-08T08:07:45.906Z",
   "factorsExcluded": {
-    "excludedArterialHypotension": false,
-    "excludedHypothermia": false,
-    "excludedHypovolemicShock": false,
-    "excludedIntoxication": false,
-    "excludedMetabolicComa": false,
-    "excludedMuscleRelaxants": false,
-    "excludedNarcotic": false,
+    "excludedArterialHypotension": true,
+    "excludedHypothermia": true,
+    "excludedHypovolemicShock": true,
+    "excludedIntoxication": true,
+    "excludedMetabolicComa": true,
+    "excludedMuscleRelaxants": true,
+    "excludedNarcotic": true,
     "specificPose": "string"
   },
   "lackIndependBreathTest": {
-    "paCO2Before": 0,
-    "paCO2Middle": 0,
-    "paO2After": 0
+    "paCO2Before": 0.1,
+    "paCO2Middle": 0.1,
+    "paO2After": 0.1
   },
   "medicalPersonnel": [
     {
       "medicalPersonSpecialization": "string",
       "medicalPersonText": "string",
-      "medicalPost": 0,
-      "medicalWorkerIIN": "string",
-      "medicalWorkerId": 0
+      "medicalPost": 1073741824,
+      "medicalWorkerIIN": "123456789012",
+      "medicalWorkerId": 9218
     }
   ],
-  "misId": 0,
-  "organizationBin": "string",
-  "organizationId": 123531,
+  "misId": 9007199254740991,
+  "organizationBin": "123456789012",
+  "organizationId": 303678,
   "patientInformation": {
-    "iin": "123456789012",
-    "rpnId": "RPN12345"
+    "iin": "{{TEST_IIN}}",
+    "rpnId": "{{TEST_IIN}}"
   },
-  "pressureDiastolic": 0,
-  "pressureSystolic": 0,
-  "rectalTemperature": 0,
+  "pressureDiastolic": 1073741824,
+  "pressureSystolic": 1073741824,
+  "rectalTemperature": 0.1,
   "servicePerformed": [
     {
       "serviceCode": "string"

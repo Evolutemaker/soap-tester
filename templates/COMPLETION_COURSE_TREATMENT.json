@@ -9,7 +9,7 @@
     "treatmentCategory": "string",
     "weightControl": [
       {
-        "measurementDate": "2026-06-23",
+        "measurementDate": "2026-07-07",
         "weight": 0
       }
     ]
@@ -22,7 +22,7 @@
   "characterReaction": "string",
   "clarifyingClinicalDiagnosis": [
     {
-      "clarifyingDiagDate": "2026-06-23",
+      "clarifyingDiagDate": "2026-07-07",
       "section": "string",
       "sectionPoint": [
         "string"
@@ -32,16 +32,16 @@
   "conclusion": "string",
   "diagList": [
     {
-      "diagChar": "string",
-      "diagKind": "string",
-      "diagType": "string",
-      "mkb10": "string",
+      "diagChar": "4",
+      "diagKind": "3",
+      "diagType": "2",
+      "mkb10": "101",
       "sickTraumaTypePublicCode": "string"
     }
   ],
-  "doctorId": 0,
-  "doctorIin": "string",
-  "doctorPostId": 0,
+  "doctorId": 9218,
+  "doctorIin": "123456789012",
+  "doctorPostId": 9218,
   "doctorPostText": "string",
   "eventId": "EVENT_COMPLETION_COURSE_TREATMENT_TEMPLATE",
   "eventType": "COMPLETION_COURSE_TREATMENT",
@@ -51,13 +51,13 @@
   },
   "idHospitalization": "string",
   "incompleteTreatmentReason": "string",
-  "misId": 0,
-  "organizationBin": "string",
-  "organizationId": 123531,
+  "misId": 20,
+  "organizationBin": "123456789012",
+  "organizationId": 303678,
   "patientCode": "string",
   "patientInformation": {
-    "iin": "123456789012",
-    "rpnId": "RPN12345"
+    "iin": "{{TEST_IIN}}",
+    "rpnId": "{{TEST_IIN}}"
   },
   "recomendation": "string",
   "signatures": {
@@ -68,20 +68,20 @@
       "iin": "123456789012"
     }
   },
-  "surgeryComplications": "string",
+  "surgeryComplications": "",
   "thromTherapyPerfomed": false,
   "thrombNotPerfomReason1": "string",
   "thrombNotPerfomReason2": "string",
-  "treatmanTerminationDate": "2026-06-23T07:07:41.000+05:00",
+  "treatmanTerminationDate": "",
   "treatmanTerminationReason": "string",
   "treatmentAnswer": "string",
   "treatmentEffect": "string",
   "treatmentEffectComment": "string",
-  "treatmentEndDate": "2026-06-23",
-  "treatmentEpisodeBegDate": "2026-06-23",
-  "treatmentEpisodeEndDate": "2026-06-23",
-  "treatmentOutcome": "string",
-  "treatmentPlaningId": "string",
+  "treatmentEndDate": "2026-07-07",
+  "treatmentEpisodeBegDate": "2026-07-07",
+  "treatmentEpisodeEndDate": "2026-07-07",
+  "treatmentOutcome": "200",
+  "treatmentPlaningId": "EVENT_TREATMENT_PLANNING_07071142",
   "treatmentSideEffect": "string",
   "treatmentSideEffectSign": false,
   "treatmentStatus": "string",

@@ -19,10 +19,10 @@
     "nurseSurId": 9218,
     "nurseIin": "string"
   },
-  "examinationDateTime": "{{TODAY}}",
+  "examinationDateTime": "2026-06-30T05:33:32.611Z",
   "temperatureSheetList": [
     {
-      "measurementDateTime": "{{TODAY}}",
+      "measurementDateTime": "2026-06-30T05:33:32.611Z",
       "temperature": 0,
       "pressureInfo": {
         "pressureRightSystolic": 0,

@@ -124,6 +124,7 @@ def build_soap(data_json, event_id, event_type, op):
         f'                        <eventId>{event_id}</eventId>\n'
         f'                        <eventType>{event_type}</eventType>\n'
         f'                        <operationType>{op}</operationType>\n'
+        f'                        <misId>{cfg("MIS_ID")}</misId>\n'
         f'                        <sendDate>{now_ts()}</sendDate>\n'
         f'                        <eventData><![CDATA[\n'
         f'{data_json}\n'

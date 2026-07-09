@@ -1,20 +1,20 @@
 {
-  "ambulanceMedicalCareId": "string",
-  "callingAmbulanceId": "string",
-  "clinicalDeathDate": "2026-06-23T07:07:41.000+05:00",
+  "ambulanceMedicalCareId": null,
+  "callingAmbulanceId": null,
+  "clinicalDeathDate": "2026-07-09T07:00:00.000+05:00",
   "clinicalDeathSign": false,
   "conditionBeforeReanimation": "string",
-  "deathIdentificationId": "string",
+  "deathIdentificationId": null,
   "eventId": "EVENT_CARDIO_PULMONARY_REANIMATION_TEMPLATE",
   "eventType": "CARDIO_PULMONARY_REANIMATION",
   "helpBeforeReanimation": false,
-  "misId": 0,
-  "organizationBin": "string",
-  "organizationId": 123531,
+  "misId": 9007199254740991,
+  "organizationBin": "123456789012",
+  "organizationId": 303678,
   "patientCode": "string",
   "patientInformation": {
-    "iin": "123456789012",
-    "rpnId": "RPN12345"
+    "iin": "{{TEST_IIN}}",
+    "rpnId": "{{TEST_IIN}}"
   },
   "postReanimationMeasures": {
     "breathingRestored": false,
@@ -25,18 +25,18 @@
     "reanimationOutcome": "string",
     "respiratorySupportAfter": "string"
   },
-  "reanimBrigadeArrivalDateTime": "2026-06-23T07:07:41.000+05:00",
-  "reanimBrigadeCalledDateTime": "2026-06-23T07:07:41.000+05:00",
-  "reanimationBegin": "2026-06-23T07:07:41.000+05:00",
+  "reanimBrigadeArrivalDateTime": "2026-07-09T07:15:00.000+05:00",
+  "reanimBrigadeCalledDateTime": "2026-07-09T07:00:00.000+05:00",
+  "reanimationBegin": "2026-07-09T07:20:00.000+05:00",
   "reanimationBrigades": [
     {
       "medicalPersonRoles": "string",
       "medicalPersonText": "string",
-      "medicalWorkerId": 0,
-      "medicalWorkerIin": "string"
+      "medicalWorkerId": 9218,
+      "medicalWorkerIin": "123456789012"
     }
   ],
-  "reanimationEnd": "2026-06-23T07:07:41.000+05:00",
+  "reanimationEnd": "2026-07-09T08:00:00.000+05:00",
   "reanimationMeasures": {
     "cardiacMonitoring": false,
     "conicotomy": false,
@@ -64,7 +64,7 @@
   },
   "reanimationPlace": "string",
   "reanimationReason": "string",
-  "reanimationSuccessful": false,
+  "reanimationSuccessful": true,
   "signature": {
     "sign": "ABC123XYZ456...",
     "signedData": "ABC123XYZ456...",
@@ -73,6 +73,6 @@
       "iin": "123456789012"
     }
   },
-  "violationsDeveloped": "2026-06-23T07:07:41.000+05:00",
+  "violationsDeveloped": "2026-07-09T07:00:00.000+05:00",
   "violationsIdentified": "string"
 }

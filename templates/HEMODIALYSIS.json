@@ -1,18 +1,18 @@
 {
-  "doctorId": 0,
-  "doctorIin": "string",
-  "doctorPostId": 0,
+  "doctorId": 9218,
+  "doctorIin": "123456789012",
+  "doctorPostId": 9218,
   "doctorPostText": "string",
   "eventId": "EVENT_HEMODIALYSIS_TEMPLATE",
   "eventType": "HEMODIALYSIS",
   "hospitalizationId": "string",
-  "misId": 0,
-  "organizationBin": "string",
-  "organizationId": 123531,
+  "misId": 9007199254740991,
+  "organizationBin": "123456789012",
+  "organizationId": 303678,
   "patientCode": "string",
   "patientInformation": {
-    "iin": "123456789012",
-    "rpnId": "RPN12345"
+    "iin": "{{TEST_IIN}}",
+    "rpnId": "{{TEST_IIN}}"
   },
   "procedureCard": {
     "assignmentDrugIds": "string",
@@ -29,20 +29,20 @@
     "patientObservation": [
       {
         "observationPeriod": "string",
-        "pressureDiastolic": 0,
-        "pressureSystolic": 0,
-        "pulse": 0,
+        "pressureDiastolic": 1073741824,
+        "pressureSystolic": 1073741824,
+        "pulse": 1073741824,
         "temperature": 0,
         "weight": 0
       }
     ],
-    "procedureBegDateTime": "2026-06-23T07:07:41.000+05:00",
-    "procedureEndDateTime": "2026-06-23T07:07:41.000+05:00",
-    "razmerDial": 0,
+    "procedureBegDateTime": "2026-06-30T09:39:52.407Z",
+    "procedureEndDateTime": "2026-06-30T09:39:52.407Z",
+    "razmerDial": 1073741824,
     "typeDial": "string",
     "vascularAccess": "string",
     "vidUfId": "string"
   },
-  "serviceCode": "string",
+  "serviceCode": "D39.950.701",
   "treatmentPlanningId": "string"
 }

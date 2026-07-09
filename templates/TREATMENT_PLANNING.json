@@ -19,7 +19,7 @@
   },
   "clarifyingClinicalDiagnosis": [
     {
-      "clarifyingDiagDate": "{{TODAY}}",
+      "clarifyingDiagDate": "2026-07-07",
       "section": "string",
       "sectionPoint": [
         "string"
@@ -30,10 +30,10 @@
   "courseDuration": 0,
   "diagList": [
     {
-      "diagChar": "string",
-      "diagKind": "string",
-      "diagType": "string",
-      "mkb10": "string",
+      "diagChar": "4",
+      "diagKind": "3",
+      "diagType": "2",
+      "mkb10": "101",
       "sickTraumaTypePublicCode": "string"
     }
   ],
@@ -62,7 +62,7 @@
       "iin": "123456789012"
     }
   },
-  "treatmentBegDate": "{{TODAY}}",
+  "treatmentBegDate": "2026-07-07",
   "treatmentCharacter": "string",
   "treatmentContraindication": "string",
   "treatmentEndDate": "2026-07-29",
