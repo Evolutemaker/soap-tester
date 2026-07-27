@@ -15,16 +15,7 @@
   "mac": null,
   "preTransfusionEpicrisis": {
     "indicationsUseInfo": [
-      { "indicationsUseType": "100", "indicationsUse": "100" },
-      { "indicationsUseType": "100", "indicationsUse": "200" },
-      { "indicationsUseType": "100", "indicationsUse": "300" },
-      { "indicationsUseType": "200", "indicationsUse": "800" },
-      { "indicationsUseType": "200", "indicationsUse": "900" },
-      { "indicationsUseType": "200", "indicationsUse": "1000" },
-      { "indicationsUseType": "300", "indicationsUse": "1500" },
-      { "indicationsUseType": "300", "indicationsUse": "1200" },
-      { "indicationsUseType": "300", "indicationsUse": "1400" },
-      { "indicationsUseType": "300", "indicationsUse": "1100" }
+      { "indicationsUseType": "100", "indicationsUse": "100" }
     ],
     "transfusionTactics": "-1",
     "performedServices": [
@@ -33,9 +24,9 @@
   },
   "transfusionMedium": [
     {
-      "transfusionMediumCode": "200",
-      "bloodComponents": "2400",
-      "transfusionBloodGroup": "200",
+      "transfusionMediumCode": "100",
+      "bloodComponents": "165",
+      "transfusionBloodGroup": "100",
       "transfusionRhFactor": "100",
       "seriesNumber": 666,
       "bloodCenterId": 0,
@@ -52,7 +43,7 @@
     "testInterpretation": "-1"
   },
   "transfusionDoctorId": 9218,
-  "recipientBloodGroup": "200",
+  "recipientBloodGroup": "100",
   "recipientRhFactor": "100",
   "amount": 9,
   "erythrocyteContaining": 9,
