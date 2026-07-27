@@ -23,7 +23,7 @@
     "laboratoryResearch": [
       {
         "measurementPeriod": "string",
-        "serviceId": "string"
+        "serviceLabCode": "D39.950.701"
       }
     ],
     "patientObservation": [

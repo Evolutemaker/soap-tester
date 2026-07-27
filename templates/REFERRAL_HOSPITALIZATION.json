@@ -1,58 +1,52 @@
 {
   "addInfo": "string",
-  "bedProfPublicCode": "string",
-  "benefitTypePublicCode": "string",
+  "bedProfPublicCode": "100",
+  "benefitTypePublicCode": "100",
   "clinicDiagList": [
     {
-      "diagChar": "string",
-      "diagKind": "string",
-      "diagType": "string",
-      "mkb10": "string",
-      "sickTraumaTypePublicCode": "string"
+      "diagChar": "100",
+      "diagKind": "100",
+      "diagType": "100",
+      "mkb10": "100",
+      "sickTraumaTypePublicCode": "100"
     }
   ],
-  "directDoctorIin": "string",
-  "directDoctorSURId": 0,
+  "directDoctorIin": "123456789012",
+  "directDoctorSURId": 9218,
   "eventId": "EVENT_REFERRAL_HOSPITALIZATION_TEMPLATE",
   "eventType": "REFERRAL_HOSPITALIZATION",
-  "hospitalCode": "string",
-  "hospitalizationDirectionDate": "2026-06-23T07:07:41.000+05:00",
-  "misId": 0,
-  "noticeTargetPublicCode": "string",
-  "organizationBin": "string",
-  "organizationId": 123531,
-  "outdate": "2026-06-23",
+  "financeSource": "100",
+  "hospitalCode": "100",
+  "hospitalizationDirectionDate": "2026-07-09T07:07:41.000+05:00",
+  "misId": 20,
+  "noticeTargetPublicCode": "100",
+  "organizationBin": "123456789012",
+  "organizationId": 303678,
+  "outdate": "2026-07-09",
   "patientInformation": {
-    "iin": "123456789012",
-    "rpnId": "RPN12345"
+    "iin": "{{TEST_IIN}}",
+    "rpnId": "{{TEST_IIN}}"
   },
   "phoneNumberPatients": [
     {
-      "phoneNumber": "string",
-      "phoneTypeIdCode": "string"
+      "phoneNumber": "+77071234567",
+      "phoneTypeIdCode": "100"
     }
   ],
-  "planningDate": "2026-06-23",
-  "polPlanDate": "2026-06-23",
-  "refMOID": 0,
-  "refMObin": "string",
+  "planningDate": "2026-07-31",
+  "polPlanDate": "2026-07-31",
+  "refMOID": 303678,
+  "refMObin": "123456789012",
   "rehabCardId": "string",
   "rehabilitationFile": "string",
-  "rehabilitationStage": "string",
+  "rehabilitationStage": "100",
   "serviceList": [
     {
-      "kdsPerformedId": "string",
-      "recipientBloodGroup": "string",
-      "recipientRhFactor": "string"
+      "kdsPerformedId": "KDS-00000",
+      "recipientBloodGroup": "100",
+      "recipientRhFactor": "100"
     }
   ],
-  "signature": {
-    "sign": "ABC123XYZ456...",
-    "signedData": "ABC123XYZ456...",
-    "signerInformation": {
-      "bin": "123456789012",
-      "iin": "123456789012"
-    }
-  },
-  "surgeryId": "string"
+  "signature": null,
+  "surgeryId": null
 }

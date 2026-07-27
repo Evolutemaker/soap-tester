@@ -1,88 +1,75 @@
 {
+  "eventId": "EVENT_NEWBORN_HISTORY_TEMPLATE",
+  "eventType": "NEWBORN_HISTORY",
+  "misId": 20,
+  "organizationId": 303678,
+  "organizationBin": "123456789012",
+  "requestTime": "2026-07-13T10:56:11.068+05:00",
+  "patientInformation": {
+    "iin": "777837533988",
+    "rpnId": "777837533988"
+  },
+  "patientCode": null,
+  "signatures": null,
+  "birthDateTime": "2026-06-12T19:39:00.000+05:00",
+  "surrogateMotherSign": false,
+  "deliveryHistoryId": "EVENT-DELIVERY-HISTORY-2000",
+  "newbornInfo": {
+    "childBirth": "2",
+    "signOfLiveBirth": "100",
+    "liveBirthCriteria": "Дыхание, сердцебиение, пульсация пуповины, произвольное сокращение мускулатуры",
+    "benefitsDuringChildbirth": "900",
+    "typeOfTerm": "300",
+    "childGestationalAge": 3,
+    "childGestationalAgeOf": 1,
+    "childNumber": 2,
+    "breath": true,
+    "heartbeat": true,
+    "pulsationUmbilicalCord": true,
+    "voluntaryContractionOfMuscles": true,
+    "gender": "300",
+    "birthHeight": 48,
+    "birthWeight": 2340,
+    "headCircumference": 32,
+    "chestCircumference": 30
+  },
+  "newbornConditionApgarScore": {
+    "apgarScore1Min": 8,
+    "apgarScore5Min": 9
+  },
+  "breastFeedingInformation": true,
+  "placementId": "EVENT-PATIENT-PLACEMENT-2367815",
+  "inpatientMedicalExaminationId": null,
+  "hospitalizationId": null,
   "appointments": [
     {
-      "assignmentIsloId": "string",
-      "medicationAssignmentsId": "string"
+      "assignmentIsloId": "e9cf19f3-7d0d-4b88-a76a-93389803d707",
+      "medicationAssignmentsId": "e9cf19f3-7d0d-4b88-a76a-93389803d707"
     }
   ],
-  "birthDateTime": "2026-06-23T07:07:41.000+05:00",
+  "vaccination": {
+    "vaccinationId": "EVENT-VACCINATION-19397037"
+  },
+  "developmentalDefectsInfo": [
+    {
+      "developmentalDefects": "M01.5"
+    }
+  ],
   "birthInjuriesInfo": [
     {
       "birthInjuries": "string"
     }
   ],
-  "breastFeedingInformation": false,
-  "deliveryHistoryId": "string",
-  "developmentalDefectsInfo": [
-    {
-      "developmentalDefects": "string"
-    }
-  ],
-  "doctorId": 0,
-  "eventId": "EVENT_NEWBORN_HISTORY_TEMPLATE",
-  "eventType": "NEWBORN_HISTORY",
-  "hospitalizationId": "string",
-  "inpatientMedicalExaminationId": "string",
-  "misId": 0,
-  "newbornConditionApgarScore": {
-    "apgarScore1Min": 0,
-    "apgarScore5Min": 0
-  },
-  "newbornInfo": {
-    "benefitsDuringChildbirth": "string",
-    "birthHeight": 0,
-    "birthWeight": 0,
-    "breath": false,
-    "chestCircumference": 0,
-    "childBirth": "string",
-    "childGestationalAge": 0,
-    "childGestationalAgeOf": 0,
-    "childNumber": 0,
-    "gender": "string",
-    "headCircumference": 0,
-    "heartbeat": false,
-    "liveBirthCriteria": "string",
-    "pulsationUmbilicalCord": false,
-    "signOfLiveBirth": "string",
-    "typeOfTerm": "string",
-    "voluntaryContractionOfMuscles": false
-  },
-  "organizationBin": "string",
-  "organizationId": 123531,
-  "patientCode": "string",
-  "patientInformation": {
-    "iin": "123456789012",
-    "rpnId": "RPN12345"
-  },
-  "placementId": "string",
-  "refusalChild": false,
   "screening": [
     {
-      "screeningComment": "string",
-      "screeningDateTime": "2026-06-23T07:07:41.000+05:00",
-      "screeningId": "string",
+      "screeningId": "100",
+      "screeningResult": "100",
+      "screeningComment": null,
       "screeningRefusal": false,
-      "screeningResult": "string"
+      "screeningDateTime": "2026-06-30T19:00:00Z"
     }
   ],
-  "serviceList": {
-    "justification": "string",
-    "recipientBloodGroup": "string",
-    "recipientRhFactor": "string",
-    "serviceCode": "string"
-  },
-  "signatures": [
-    {
-      "sign": "ABC123XYZ456...",
-      "signedData": "ABC123XYZ456...",
-      "signerInformation": {
-        "bin": "123456789012",
-        "iin": "123456789012"
-      }
-    }
-  ],
-  "surrogateMotherSign": false,
-  "vaccination": {
-    "vaccinationId": "string"
-  }
+  "refusalChild": null,
+  "doctorId": 9218,
+  "serviceList": null
 }
