@@ -1,9 +1,10 @@
 {
   "eventId": "EVENT_BLOOD_TRANSFUSION_TEMPLATE",
   "eventType": "BLOOD_TRANSFUSION",
-  "misId": 171,
+  "misId": 10,
   "organizationId": 8000000000000003,
   "organizationBin": "990740001522",
+  "requestTime": "2026-07-28T10:00:00.000+05:00",
   "patientInformation": {
     "iin": "{{TEST_IIN}}",
     "rpnId": null
@@ -15,7 +16,16 @@
   "mac": null,
   "preTransfusionEpicrisis": {
     "indicationsUseInfo": [
-      { "indicationsUseType": "100", "indicationsUse": "100" }
+      { "indicationsUseType": "100", "indicationsUse": "100" },
+      { "indicationsUseType": "100", "indicationsUse": "200" },
+      { "indicationsUseType": "100", "indicationsUse": "300" },
+      { "indicationsUseType": "200", "indicationsUse": "800" },
+      { "indicationsUseType": "200", "indicationsUse": "900" },
+      { "indicationsUseType": "200", "indicationsUse": "1000" },
+      { "indicationsUseType": "300", "indicationsUse": "1500" },
+      { "indicationsUseType": "300", "indicationsUse": "1200" },
+      { "indicationsUseType": "300", "indicationsUse": "1400" },
+      { "indicationsUseType": "300", "indicationsUse": "1100" }
     ],
     "transfusionTactics": "-1",
     "performedServices": [
@@ -24,9 +34,9 @@
   },
   "transfusionMedium": [
     {
-      "transfusionMediumCode": "100",
-      "bloodComponents": "165",
-      "transfusionBloodGroup": "100",
+      "transfusionMediumCode": "200",
+      "bloodComponents": "2400",
+      "transfusionBloodGroup": "200",
       "transfusionRhFactor": "100",
       "seriesNumber": 666,
       "bloodCenterId": 0,
@@ -38,12 +48,12 @@
   "transfusionFrequency": "-1",
   "transfusionRate": "-1",
   "testIndividualCompatibility": {
-    "employeeId": 9218,
+    "employeeId": 0,
     "testMethod": "-1",
     "testInterpretation": "-1"
   },
   "transfusionDoctorId": 9218,
-  "recipientBloodGroup": "100",
+  "recipientBloodGroup": "200",
   "recipientRhFactor": "100",
   "amount": 9,
   "erythrocyteContaining": 9,

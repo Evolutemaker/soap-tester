@@ -17,6 +17,7 @@
   "eventType": "REFERRAL_HOSPITALIZATION",
   "financeSource": "100",
   "hospitalCode": "100",
+  "hospitalType": "100",
   "hospitalizationDirectionDate": "2026-07-09T07:07:41.000+05:00",
   "misId": 20,
   "noticeTargetPublicCode": "100",

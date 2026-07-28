@@ -4,7 +4,10 @@
   "misId": 9007199254740991,
   "organizationId": 303678,
   "organizationBin": "123456789012",
-  "patientInformation": {},
+  "patientInformation": {
+    "iin": "{{TEST_IIN}}",
+    "rpnId": "{{TEST_IIN}}"
+  },
   "patientCode": "string",
   "signature": {
     "sign": "ABC123XYZ456...",
@@ -14,39 +17,65 @@
       "iin": "123456789012"
     }
   },
-  "hospitalizationId": "string",
+  "hospitalizationId": "7ec5f69e-2fd9-4364-b4d1-c53fd53b368c",
   "nurseInfo": {
     "nurseSurId": 9218,
     "nurseIin": "string"
   },
-  "examinationDateTime": "2026-06-30T05:33:32.611Z",
+  "examinationDateTime": "2026-07-28T06:00:00.000+05:00",
   "temperatureSheetList": [
     {
-      "measurementDateTime": "2026-06-30T05:33:32.611Z",
-      "temperature": 0,
+      "measurementDateTime": "2026-07-28T07:00:00.000+05:00",
+      "temperature": 36.6,
       "pressureInfo": {
-        "pressureRightSystolic": 0,
-        "pressureRightDiastolic": 0,
-        "pressureLeftSystolic": 0,
-        "pressureLeftDiastolic": 0
+        "pressureRightSystolic": 120,
+        "pressureRightDiastolic": 80,
+        "pressureLeftSystolic": 118,
+        "pressureLeftDiastolic": 78
       },
-      "respiratoryRatePerMinute": 0,
-      "pulse": 0,
-      "dailyAmountUrine": 0,
+      "respiratoryRatePerMinute": 16,
+      "pulse": 72,
+      "dailyAmountUrine": 1500,
       "dailyAmountSputum": 0,
-      "liquidAmount": 0,
-      "weight": 0
+      "liquidAmount": 2000,
+      "weight": 70
+    },
+    {
+      "measurementDateTime": "2026-07-28T14:00:00.000+05:00",
+      "temperature": 36.8,
+      "pressureInfo": {
+        "pressureRightSystolic": 122,
+        "pressureRightDiastolic": 81,
+        "pressureLeftSystolic": 120,
+        "pressureLeftDiastolic": 79
+      },
+      "respiratoryRatePerMinute": 17,
+      "pulse": 75,
+      "dailyAmountUrine": 1400,
+      "dailyAmountSputum": 0,
+      "liquidAmount": 1900,
+      "weight": 70
     }
   ],
   "completingKDUList": [
     {
-      "assignmentKDUId": "string",
+      "assignmentKDUId": "EVENT_ASSIGNMENT_KDU_07271250",
       "assignmentKDUDone": true
+    },
+    {
+      "assignmentKDUId": "EVENT_ASSIGNMENT_KDU_07271250",
+      "assignmentKDUDone": false
     }
   ],
   "nursingActivities": [
     {
-      "nursingDiagnosisActivity": "string"
+      "nursingDiagnosisActivity": "Контроль состояния пациента"
+    },
+    {
+      "nursingDiagnosisActivity": "Обработка послеоперационной раны"
+    },
+    {
+      "nursingDiagnosisActivity": "Контроль водного баланса"
     }
   ]
 }
