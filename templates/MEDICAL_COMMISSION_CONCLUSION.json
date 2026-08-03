@@ -1,9 +1,9 @@
 {
   "commissionCompositionDto": [
     {
-      "medicalWorkerIIN": "string",
-      "medicalWorkerId": 0,
-      "organizationId": "string",
+      "medicalWorkerIIN": "123456789012",
+      "medicalWorkerId": 9218,
+      "organizationId": "303678",
       "postId": "string",
       "role": "string",
       "specialOpinion": "string",
@@ -39,13 +39,13 @@
   "eventId": "EVENT_MEDICAL_COMMISSION_CONCLUSION_TEMPLATE",
   "eventType": "MEDICAL_COMMISSION_CONCLUSION",
   "fullPackageDocuments": false,
-  "misId": 0,
-  "organizationBin": "string",
-  "organizationId": 123531,
+  "misId": 9007199254740991,
+  "organizationBin": "123456789012",
+  "organizationId": 303678,
   "patientCode": "string",
   "patientInformation": {
-    "iin": "123456789012",
-    "rpnId": "RPN12345"
+    "iin": "{{TEST_IIN}}",
+    "rpnId": "{{TEST_IIN}}"
   },
   "protocolDto": {
     "artType": "string",
