@@ -18,12 +18,12 @@
   "financeSource": "100",
   "hospitalCode": "100",
   "hospitalType": "100",
-  "hospitalizationDirectionDate": "2026-07-09T07:07:41.000+05:00",
+  "hospitalizationDirectionDate": "2026-08-06T07:07:41.000+05:00",
   "misId": 20,
   "noticeTargetPublicCode": "100",
   "organizationBin": "123456789012",
   "organizationId": 303678,
-  "outdate": "2026-07-09",
+  "outdate": "2026-08-10",
   "patientInformation": {
     "iin": "{{TEST_IIN}}",
     "rpnId": "{{TEST_IIN}}"
@@ -34,8 +34,8 @@
       "phoneTypeIdCode": "100"
     }
   ],
-  "planningDate": "2026-07-31",
-  "polPlanDate": "2026-07-31",
+  "planningDate": "2026-08-10",
+  "polPlanDate": "2026-08-10",
   "refMOID": 303678,
   "refMObin": "123456789012",
   "rehabCardId": "string",
