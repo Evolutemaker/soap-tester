@@ -7,23 +7,23 @@
   "count": 0,
   "diagList": [
     {
-      "diagChar": "string",
-      "diagKind": "string",
-      "diagType": "string",
-      "mkb10": "string"
+      "diagChar": "100",
+      "diagKind": "100",
+      "diagType": "100",
+      "mkb10": "A00"
     }
   ],
   "eventId": "EVENT_REFERRAL_KDU_TEMPLATE",
   "eventType": "REFERRAL_KDU",
   "financeSource": "string",
-  "misId": 0,
+  "misId": 9007199254740991,
   "motherRpnId": "string",
-  "organizationBin": "string",
-  "organizationId": 123531,
+  "organizationBin": "123456789012",
+  "organizationId": 303678,
   "parentId": "string",
   "patientInformation": {
-    "iin": "123456789012",
-    "rpnId": "RPN12345"
+    "iin": "{{TEST_IIN}}",
+    "rpnId": "{{TEST_IIN}}"
   },
   "patientStatus": "string",
   "receiverOrganizationBin": "string",
@@ -45,7 +45,7 @@
   "senderOrganizationId": 0,
   "senderPosition": "string",
   "senderPositionText": "string",
-  "serviceCode": "string",
+  "serviceCode": "A01.008.007",
   "signature": {
     "sign": "ABC123XYZ456...",
     "signedData": "ABC123XYZ456...",
