@@ -40,11 +40,11 @@
       "transfusionRhFactor": "100",
       "seriesNumber": 666,
       "bloodCenterId": 0,
-      "productionDate": "2026-05-25",
-      "expireDate": "2026-07-05"
+      "productionDate": "2026-08-01",
+      "expireDate": "2026-09-05"
     }
   ],
-  "transfusionDateAndTime": "2026-06-19T10:37:00.000+05:00",
+  "transfusionDateAndTime": "2026-08-07T10:37:00.000+05:00",
   "transfusionFrequency": "-1",
   "transfusionRate": "-1",
   "testIndividualCompatibility": {
