@@ -4,7 +4,7 @@
   "misId": 10,
   "organizationId": 8000000000000003,
   "organizationBin": "990740001522",
-  "requestTime": "2026-07-28T10:00:00.000+05:00",
+  "requestTime": "2026-09-18T10:00:00.000+05:00",
   "patientInformation": {
     "iin": "{{TEST_IIN}}",
     "rpnId": null
@@ -40,11 +40,11 @@
       "transfusionRhFactor": "100",
       "seriesNumber": 666,
       "bloodCenterId": 0,
-      "productionDate": "2026-08-01",
-      "expireDate": "2026-09-05"
+      "productionDate": "2026-09-12",
+      "expireDate": "2026-10-17"
     }
   ],
-  "transfusionDateAndTime": "2026-08-07T10:37:00.000+05:00",
+  "transfusionDateAndTime": "2026-09-18T10:37:00.000+05:00",
   "transfusionFrequency": "-1",
   "transfusionRate": "-1",
   "testIndividualCompatibility": {

@@ -19,7 +19,7 @@
   },
   "clarifyingClinicalDiagnosis": [
     {
-      "clarifyingDiagDate": "2026-08-05",
+      "clarifyingDiagDate": "2026-09-10",
       "section": "string",
       "sectionPoint": [
         "string"
@@ -62,10 +62,10 @@
       "iin": "123456789012"
     }
   },
-  "treatmentBegDate": "2026-08-05",
+  "treatmentBegDate": "2026-09-12",
   "treatmentCharacter": "string",
   "treatmentContraindication": "string",
-  "treatmentEndDate": "2026-08-10",
+  "treatmentEndDate": "2026-09-20",
   "treatmentIndication": null,
   "treatmentKind": null,
   "treatmentMethod": null,

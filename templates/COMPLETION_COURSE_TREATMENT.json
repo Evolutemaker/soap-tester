@@ -1,60 +1,60 @@
 {
   "addAttributesTuberculosis": {
-    "adverseReaction": "string",
-    "complicationExtrapulmTub": "string",
+    "adverseReaction": "",
+    "complicationExtrapulmTub": "100",
     "needsPalliativeCare": false,
-    "seriousAdverseReaction": "string",
-    "smearConversion": "string",
+    "seriousAdverseReaction": "",
+    "smearConversion": "0",
     "symptomaticTreatment": false,
-    "treatmentCategory": "string",
+    "treatmentCategory": "100",
     "weightControl": [
       {
-        "measurementDate": "2026-07-07",
-        "weight": 0
+        "measurementDate": "2026-09-14",
+        "weight": 0.1
       }
     ]
   },
   "assigmentDrugs": [
     {
-      "assigmentDrugId": "string"
+      "assigmentDrugId": "ASSIGNMENT-KDU-17"
     }
   ],
-  "characterReaction": "string",
+  "characterReaction": "100",
   "clarifyingClinicalDiagnosis": [
     {
-      "clarifyingDiagDate": "2026-07-07",
-      "section": "string",
+      "clarifyingDiagDate": "2026-09-01",
+      "section": "CH10088",
       "sectionPoint": [
-        "string"
+        "CHP11224"
       ]
     }
   ],
   "conclusion": "string",
   "diagList": [
     {
-      "diagChar": "4",
-      "diagKind": "3",
-      "diagType": "2",
-      "mkb10": "101",
-      "sickTraumaTypePublicCode": "string"
+      "diagChar": "200",
+      "diagKind": "100",
+      "diagType": "3",
+      "mkb10": "C96.9",
+      "sickTraumaTypePublicCode": "400"
     }
   ],
   "doctorId": 9218,
-  "doctorIin": "123456789012",
+  "doctorIin": "877735992188",
   "doctorPostId": 9218,
-  "doctorPostText": "string",
+  "doctorPostText": "877735992188",
   "eventId": "EVENT_COMPLETION_COURSE_TREATMENT_TEMPLATE",
   "eventType": "COMPLETION_COURSE_TREATMENT",
   "hemodialysis": {
-    "hemodialysSession": "string",
+    "hemodialysSession": "Yes",
     "isUrgent": false
   },
-  "idHospitalization": "string",
-  "incompleteTreatmentReason": "string",
-  "misId": 20,
-  "organizationBin": "123456789012",
-  "organizationId": 303678,
-  "patientCode": "string",
+  "idHospitalization": "qwert",
+  "incompleteTreatmentReason": "700",
+  "misId": 10,
+  "organizationBin": "990740001522",
+  "organizationId": 8000000000000003,
+  "patientCode": "",
   "patientInformation": {
     "iin": "{{TEST_IIN}}",
     "rpnId": "{{TEST_IIN}}"
@@ -69,21 +69,21 @@
     }
   },
   "surgeryComplications": "",
-  "thromTherapyPerfomed": false,
-  "thrombNotPerfomReason1": "string",
-  "thrombNotPerfomReason2": "string",
+  "thromTherapyPerfomed": true,
+  "thrombNotPerfomReason1": "100",
+  "thrombNotPerfomReason2": "100",
   "treatmanTerminationDate": "",
-  "treatmanTerminationReason": "string",
-  "treatmentAnswer": "string",
-  "treatmentEffect": "string",
+  "treatmanTerminationReason": "100",
+  "treatmentAnswer": "",
+  "treatmentEffect": "100",
   "treatmentEffectComment": "string",
-  "treatmentEndDate": "2026-07-07",
-  "treatmentEpisodeBegDate": "2026-07-07",
-  "treatmentEpisodeEndDate": "2026-07-07",
+  "treatmentEndDate": "2026-09-15",
+  "treatmentEpisodeBegDate": "2026-09-01",
+  "treatmentEpisodeEndDate": "2026-09-15",
   "treatmentOutcome": "200",
-  "treatmentPlaningId": "EVENT_TREATMENT_PLANNING_07071142",
-  "treatmentSideEffect": "string",
+  "treatmentPlaningId": "40720cf6-d027-4524-a1a1-de391abc8ddc",
+  "treatmentSideEffect": "",
   "treatmentSideEffectSign": false,
   "treatmentStatus": "string",
-  "treatmentVolume": "string"
+  "treatmentVolume": "200"
 }
